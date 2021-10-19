@@ -1,2 +1,38 @@
-- name: 索引
-  href: null
+- name: 了解隐私管理
+  href: privacy-management.md
+- name: 了解免费的隐私管理试用版
+  href: privacy-management-trial.md
+- name: 开始进行隐私管理
+  href: privacy-management-setup.md
+- name: 在隐私管理中设置用户权限
+  href: privacy-management-permissions.md
+- name: 配置隐私管理设置
+  href: privacy-management-settings.md
+- name: 在隐私管理中查找和可视化个人数据
+  href: privacy-management-data-profile.md
+- name: 在隐私管理中使用策略管理风险
+  items:
+    - name: 了解隐私策略
+      href: privacy-management-policies.md
+    - name: 创建和自定义策略
+      href: privacy-management-policies-create.md
+    - name: 管理策略
+      href: privacy-management-policies-manage.md
+    - name: 了解策略警报和问题
+      href: privacy-management-policies-issues.md
+    - name: 发送用户策略通知
+      href: privacy-management-policies-notifications.md
+- name: 管理主体权限请求
+  items:
+    - name: 了解有关主体权限请求的信息
+      href: privacy-management-subject-rights-requests.md
+    - name: 创建主体权限请求
+      href: privacy-management-subject-rights-requests-create.md
+    - name: 管理主体权限请求的数据匹配
+      href: privacy-management-subject-rights-requests-data-matching.md
+    - name: 查看数据并协作处理主体权限请求
+      href: privacy-management-subject-rights-requests-review.md
+    - name: 管理主体权限请求报告和满足请求
+      href: privacy-management-subject-rights-requests-fulfill.md
+    - name: 自动化主体权限请求任务
+      href: privacy-management-subject-rights-requests-automate-tasks.md
