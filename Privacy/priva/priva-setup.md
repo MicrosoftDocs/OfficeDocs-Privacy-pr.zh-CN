@@ -1,5 +1,5 @@
 ---
-title: 使用管理入门
+title: Priva 入门
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150fcf
 description: 了解如何为组织设置 Microsoft 管理中心、设置角色和权限以及配置重要设置。
-ms.openlocfilehash: 62e28361b57dd866b95ce566616473ed1a71e4ad
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 8df9367bd88fe9a8feecdbb00110345aae7a3d79
+ms.sourcegitcommit: a76dec53605c963d9bc134a26b7e09f600d6e940
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248859"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "62280244"
 ---
-# <a name="get-started-with-priva"></a>使用管理入门
+# <a name="get-started-with-priva"></a>Priva 入门
 
-如果你已准备好开始使用 Microsoft 管理程序帮助识别和缓解隐私风险，请按照以下步骤设置先决条件并开始探索隐私见解。
+如果你已准备好开始使用 Microsoft Priva 来帮助识别和缓解隐私风险，请按照以下步骤设置先决条件，并开始探索隐私见解。
 
 ## <a name="step-1-confirm-subscriptions-and-licensing"></a>步骤 1：确认订阅和许可
 
@@ -37,10 +37,10 @@ ms.locfileid: "62248859"
 
 同时，还针对以下两个不同的解决方案提供许可选项：Rightsa 隐私风险管理和权限主体权利请求。 可以单独或一起购买。 获取主题权限请求的许可证时，可以选择相应的许可层来处理多少请求。 你随时都可以购买其他请求。
 
-有关详细的许可指南，请参阅 [适用于安全性与合规性的 Microsoft 365 许可指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privacy-management)。
+有关详细的许可指南，请参阅 [适用于安全性与合规性的 Microsoft 365 许可指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-priva)。
 
 > [!Note]
-> 美国政府国防Community (GCC) 、GCC或国防部 (客户) 。
+> 美国政府国防Community (GCC) 、高级GCC或国防部 (客户) 。
 
 ### <a name="get-free-trial-license"></a>获取免费试用版许可证
 
@@ -56,7 +56,7 @@ Microsoft 365审核日志是组织中所有活动的摘要。 隐私风险管理
 
 Permissiona 使用基于角色的访问控制 (RBAC) 权限模型。 只有分配了角色的用户才能访问"管理"，并且每个用户允许的操作受角色类型限制。
 
-全局管理员有权访问"管理中心"，并将其他用户分配给角色。 他们可以登录并设置用户权限，[Microsoft 365 合规中心用户权限](https://compliance.microsoft.com/)。 为快速入门，隐私管理角色组具有访问管理中心的所有功能的权限。 此组可能非常适合同一个人可能履行所有职责的组织。 其他隐私角色允许你进行更精细的控制，并将用户分配给所选功能。
+全局管理员有权访问"管理中心"，并将其他用户分配给角色。 他们可以登录并设置用户权限，Microsoft 365 合规中心用户权限。[](https://compliance.microsoft.com/) 为快速入门，隐私管理角色组具有访问管理中心的所有功能的权限。 此组可能非常适合同一个人可能履行所有职责的组织。 其他隐私角色允许你进行更精细的控制，并将用户分配给所选功能。
 
 若要详细了解角色组以及如何授予访问权限，请参阅在管理中设置用户权限和 [分配角色](priva-permissions.md)。
 
