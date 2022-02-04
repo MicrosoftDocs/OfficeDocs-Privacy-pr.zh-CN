@@ -1,0 +1,38 @@
+- name: 了解 Microsoft Priva
+  href: priva-overview.md
+- name: 了解 Priva 免费试用版
+  href: priva-trial.md
+- name: Priva 入门
+  href: priva-setup.md
+- name: 在 Priva 中设置权限和角色
+  href: priva-permissions.md
+- name: 配置 Priva 设置
+  href: priva-settings.md
+- name: 在 Priva 中查找和可视化个人数据
+  href: priva-data-profile.md
+- name: 隐私风险管理
+  items:
+    - name: 了解隐私风险管理
+      href: risk-management.md
+    - name: 创建策略
+      href: risk-management-policies.md
+    - name: 管理策略
+      href: risk-management-policies-manage.md
+    - name: 调查和修正警报
+      href: risk-management-alerts.md
+    - name: 发送用户通知
+      href: risk-management-notifications.md
+- name: 使用者权限请求
+  items:
+    - name: 了解有关主体权限请求的信息
+      href: subject-rights-requests.md
+    - name: 创建请求
+      href: subject-rights-requests-create.md
+    - name: 设置数据匹配
+      href: subject-rights-requests-data-match.md
+    - name: 查看数据并进行协作
+      href: subject-rights-requests-data-review.md
+    - name: 获取报告并完成请求
+      href: subject-rights-requests-reports.md
+    - name: 自动执行任务
+      href: subject-rights-requests-automate.md
