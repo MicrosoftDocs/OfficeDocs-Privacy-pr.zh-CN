@@ -1,5 +1,5 @@
 ---
-title: 配置省/市/市/区设置
+title: 配置 Priva 设置
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解 Microsoft 用户全局设置选项。
-ms.openlocfilehash: d0dfe4fa303a5382e9a673127308fe1bf448062e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9b59dcd875f248dd4a15be47d2f4383e8f656155
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248858"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542820"
 ---
-# <a name="configure-priva-settings"></a>配置省/市/市/区设置
+# <a name="configure-priva-settings"></a>配置 Priva 设置
 
-可以通过选择屏幕右上角的齿轮图标来管理 Microsoft 用户设置。 此处的选项允许你设置高级首选项和自定义关键属性。 此页概述了主要类别设置概述。
+可以通过选择屏幕右上角的齿轮图标来管理 Microsoft 用户设置。 此处的选项允许你设置高级首选项和自定义关键属性。 此页面概述了主要类别设置类别。
 
 ## <a name="anonymization"></a>匿名化
 
@@ -42,11 +42,11 @@ ms.locfileid: "62248858"
 
 ## <a name="data-matching"></a>数据匹配  
 
-使用此部分可上载描述数据主体的属性的数据架构，这有助于在数据环境中搜索个人数据时Microsoft 365主体。 以 XML 格式创建和上载架构和规则包。 在 **"个人数据上载**"下，还可以提交与提供的架构匹配的个人数据。 你可以创建和上传你自己的文件，也可以选择从 Azure 上传个人数据。 若要详细了解主题权限请求，请参阅 [了解 Rightsa Subject Rights Requests](subject-rights-requests.md)。
+使用此部分可上载描述数据主体的属性的数据架构，这有助于在数据主体环境中搜索个人数据时Microsoft 365主体。 以 XML 格式创建和上载架构和规则包。 在 **"个人数据上载**"下，还可以提交与提供的架构匹配的个人数据。 你可以创建和上传你自己的文件，也可以选择从 Azure 上传个人数据。 若要详细了解主题权限请求，请参阅 [了解 Rightsa Subject Rights Requests](subject-rights-requests.md)。
 
 ## <a name="data-retention-periods"></a>数据保留期
 
-此设置与权限主体权限请求相关。 它允许您控制您希望在关闭请求后保留所收集的数据和报告所生成的首选项。 这可设置为 30 天或 90 天。 请验证这些数据保留期是否符合您的策略和法律要求。 若要详细了解主题权限请求，请参阅 [了解 Rightsa Subject Rights Requests](subject-rights-requests.md)。
+此设置与权限主体权限请求相关。 它允许您控制您希望在关闭请求后保留收集的数据和报告生成的首选项。 这可设置为 30 天或 90 天，并适用于您创建的所有主体权限请求。 我们建议您验证数据保留期是否符合组织策略和法律要求。 详细了解如何 [设置主体权限请求的数据保留](subject-rights-requests-reports.md#manage-data-retention)。
 
 ## <a name="data-review-tags"></a>数据审阅标记
 
