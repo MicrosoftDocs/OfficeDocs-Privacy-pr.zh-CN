@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解如何查看 Microsoft 管理中心收集的主题权限请求数据，以及如何协作完成请求。
-ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542840"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768426"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>查看主体权限请求的数据
 
@@ -47,9 +47,9 @@ To see the initial results of your search， go to the Priva area of the [Micros
 由于请求可能需要随着时间的一段时间或由多个参与者处理，因此，用户需要持续更新状态和要采取下一步的指导。 可以在主题权限请求的概述页面上查看这些更新。
 
 #### <a name="data-estimate"></a>数据估计
-创建请求后，一旦创建请求，则一开始在 Microsoft 365 环境中查找数据主体的潜在匹配项。 确定我们认为符合您的条件的所有项目后，你将在请求的"概述"页面上的"数据估计摘要"卡中 **看到估计值**。 搜索范围内的数据量将影响完成估计的时间量。
+创建请求后，一旦创建请求，则一开始在 Microsoft 365 环境中查找数据主体的潜在匹配项。 确定我们认为符合您的条件的所有项目后，你将在请求的"概述"页面上的"数据估计摘要"卡中 **看到估计值**。 搜索范围内的数据量将影响完成估计的时间长度。
 
-您的请求将自动移动到下一个数据检索阶段，其中所有内容项都收集在一起，以便利益干系人可以协作处理其数据审阅。 但是，在某些情况下，我们会暂停数据估计，然后再继续检索，并通知你下一步要执行的步骤，然后再继续。
+您的请求将自动移动到下一个数据检索阶段，其中所有内容项都收集在一起，以便利益干系人可以协作处理数据审阅。 在某些情况下，我们会先暂停数据估计，然后再继续检索，并通知你下一步要执行的步骤。
 
 还可以选择在首次创建主体权限请求时，在数据估计阶段自动暂停。 创建过程中，选择"搜索 **设置"步骤中的** "首先获取估计 **值"** 选项。 查看有关搜索 [设置步骤的详细信息](subject-rights-requests-create.md#define-search-settings)。
 
