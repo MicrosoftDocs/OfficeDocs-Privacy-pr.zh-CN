@@ -16,16 +16,30 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解如何管理 Microsoft 用户为主体权利请求创建的数据包，以及满足对数据主体的请求。
-ms.openlocfilehash: 9931422434414146601ede959af910caf1befcc1
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 8a6a41188de78508401b0dfffb3d7cdefb2320a5
+ms.sourcegitcommit: 4965df24fdc907f7a6e397f2c78019aaf72c7580
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542830"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63564442"
 ---
 # <a name="generate-reports-and-fulfill-a-subject-rights-request"></a>生成报告并满足主体权限请求
 
 完成对 Microsoft 用户权限请求的数据审阅后，可以继续请求实施。 在数据审阅过程中，用户会创建报告并收集标记为 **"** 包含"的文件。 可以将这些数据包中的选定文件提交到数据主体以完成其请求。 同时，还支持利用Microsoft 365权限请求 API 引入自动化功能。
+
+## <a name="understanding-reports"></a>了解报告
+
+在主题 **权限请求** 的" **审阅** 数据"阶段中选择"完成审阅"后，请求的最终报告将开始自动生成。 在"**主题** 权限请求详细信息"页的"报告"选项卡上，"状态"列指示报告生成正在进行以及报告何时可供 **下载**。 可能需要 30 分钟才能完成报告创建。
+
+报告分为两个部分：
+1. **数据主体的报告：** 这些报告包含可在请求履行过程中返回给数据主体的信息。 你将在此找到包含要发送到数据主体的文件的数据包。
+   > [!IMPORTANT]
+   > 只有在数据审阅期间将项目标记为 **"包含** "时，才生成数据包。
+
+   > [!IMPORTANT]
+   > 将仅为导出 **和访问类型的****请求** 生成数据包。 不会为后续请求的 **标记列表生成数据包** 。 查看有关 [主题权限请求类型的详细信息](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard)。
+
+2. **供内部使用** 的报告：这些报告针对与主题权限请求相关的组织内部记录。 它们包括审核日志数据审阅期间应用标记的所有文件的列表，以便跟进或进一步操作。
 
 ## <a name="prepare-final-reports-for-the-data-subject"></a>为数据主体准备最终报告
 
@@ -42,21 +56,21 @@ ms.locfileid: "62542830"
 - the **Extracted_text_files** folder contains text extracted from the native files (where supported) .
 - **NativeFiles** 文件夹包含其本机文件格式的所有 **已** 包含项目。
 - 修订的文件位于 **NativeFiles** 文件夹中，并且具有后缀"_burn.pdf"。
-- 导出的文件使用唯一标识符重命名，以帮助保护个人数据。 您可以使用文件的原始文件名交叉引用唯一 **Export_load_file.csv。** 由于原始文件名可能包含敏感信息，因此应遵循适用于此类信息的策略。
+- 导出的文件使用唯一标识符重命名，以帮助保护个人数据。 您可以使用文件的原始文件名交叉引用唯一的名称 **Export_load_file.csv。** 由于原始文件名可能包含敏感信息，因此应遵循适用于此类信息的策略。
 
 查看 zip 文件的内容后，根据需要对其进行修改，以删除不希望包括在最终包中的内容。 完成后，将其安全地发送给数据主体。
 
 ## <a name="integrate-with-partner-solutions"></a>与合作伙伴解决方案集成
 
-通过利用"用户权限请求 API"，可以将"Microsoft 365权限请求"解决方案与现有业务流程和工具集成。 这提供了一种简单但强大的方法，将自动化引入主题权限策略。
+可以通过使用 Microsoft 365 主题权限请求 API 将管理主体权限请求解决方案与现有业务流程和工具集成。 使用 API 提供了一种简单而强大的方法，用于将自动化引入主题权限策略。
 
-当数据主体从你的组织请求信息时，你可以利用我们的 API 根据针对Microsoft 365自定义的条件，在内部创建这些请求。 您可以在 Microsoft 365 创建主题权限请求，跟踪请求的阶段进度，并确认请求完成处理和内容准备检索。 我们的 API 可供任何人用于使其解决方案更加可扩展：无论是适用于 ISV、合作伙伴以适应 Microsoft 365 解决方案，还是供组织用于其业务线应用程序。
+当数据主体从组织请求信息时，我们的 API 可帮助根据请求的唯一条件Microsoft 365内部创建这些请求。 您可以在 Microsoft 365 创建主题权限请求，跟踪请求的阶段进度，并确认请求完成处理和内容准备检索。 我们的 API 可供任何人用于使其解决方案更加可扩展：无论是适用于 ISV、合作伙伴以适应 Microsoft 365 解决方案，还是供组织用于其业务线应用程序。
 
 若要了解更多信息，请参阅[使用 Microsoft Graph权限请求 API](/graph/api/resources/subjectrightsrequest-subjectrightsrequestapioverview)。
 
 ## <a name="manage-data-retention"></a>管理数据保留
 
-通过此工具生成的报表和关联数据（如保存在 Azure 中的批注文件）将存储一段指定时间。 数据保留期在管理中定义设置适用于所有主体权利请求。 若要查看或更改数据保留期，请按照以下步骤操作：
+通过此工具生成的报表和关联数据（如保存在 Azure 中的批注文件）将存储一段指定时间。 数据保留期在"管理 **设置并适用于所有** 主体权限请求。 若要查看或更改数据保留期，请按照以下步骤操作：
 
 1. 在"权限主体权限请求"中的任意位置，设置 ( 右上角的齿轮) 选择齿轮图标。
 2. 在 **左侧导航上选择** "数据保留期"。
