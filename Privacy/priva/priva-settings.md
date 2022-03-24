@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解 Microsoft 用户全局设置选项。
-ms.openlocfilehash: 49a6f2112e584ef72bcc0f0433b09a21ccac194c
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746773"
+ms.locfileid: "63758421"
 ---
 # <a name="configure-priva-settings"></a>配置 Priva 设置
 
@@ -64,7 +64,3 @@ ms.locfileid: "63746773"
 标记设置适用于所有主体权限请求。
 
 详细了解在 [查看主体权限请求的数据时应用标记](subject-rights-requests-data-review.md#apply-tags)。
-
-在 **设置** 中，访问 **"数据审阅标记**"，查看和管理标签。
- 
-这些标记可用于指示需要进一步关注的内容，例如可能需要手动删除的内容。 在设置的这一部分中，您可以编辑自定义标记的名称和说明。 还可以编辑系统提供的内置标记的标记说明。 无法更改系统标记的名称。 若要了解有关主题权限请求的信息，请参阅 [查看主题权限请求的数据](subject-rights-requests-data-review.md#step-3-review-data)。

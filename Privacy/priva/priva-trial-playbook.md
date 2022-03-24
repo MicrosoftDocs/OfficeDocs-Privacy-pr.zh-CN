@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解 Microsoft 管理试用版，查看在试用期内要采取的建议操作，并查看重要文档的链接。
-ms.openlocfilehash: f75702c2f0dcc997f8d0e8bdb6ab154cc4bca5fc
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 3004a39da2627e7a0f8da1e27bd0456d3b06881d
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248861"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63765505"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>试用版 playbook：Microsoft Priva
 
@@ -47,7 +47,7 @@ ms.locfileid: "62248861"
 - 使信息工作者能够做出有关处理此数据的明智决定
 - 使用户能够有效地管理数据并采取措施来遵守不断发展的隐私法规
 
-### <a name="subject-rights-requests"></a>主体权限请求
+### <a name="subject-rights-requests"></a>使用者权限请求
 
 使用 **主题权限请求** 解决方案，您可以了解如何处理从初始请求到生成报表的查询。
 
@@ -60,8 +60,8 @@ ms.locfileid: "62248861"
 1. [确认订阅和许可](priva-setup.md#step-1-confirm-subscriptions-and-licensing)
 1. [设置用户权限和分配角色](priva-setup.md#step-3-set-user-permissions-and-assign-roles)
 1. 选择"开始试用"，将执行以下操作：
-    - 启用试用许可证 (实时启用) 
-    - 在需要 24 小时 (生成隐私见解) 
+    - 启用试用许可证后 (实时启用) 
+    - 生成隐私见解的时间 (需要 24 小时) 
 
 ![欢迎屏幕的屏幕捕获。](../media/priva-insights.png)
 
@@ -69,14 +69,14 @@ ms.locfileid: "62248861"
 
 通过自动发现个人数据资产并提供基本信息的可视化，用户可帮助你了解组织存储的数据。
 
-若要开始，请转到该页面的"[Microsoft 365 合规中心](https://compliance.microsoft.com/)并查看以下页面：
+首先，请转到下一页的"[Microsoft 365 合规中心](https://compliance.microsoft.com/)并查看以下页面：
 
 1. [概述](priva-data-profile.md#explore-the-overview-page)：提供隐私状况的聚合视图，包括个人数据在安全环境中的数量、类别、位置Microsoft 365移动。 此外，你可以了解个人数据过度共享、转移或未使用引发的关联隐私风险的当前状态和趋势。
-1. [数据配置文件](priva-data-profile.md#explore-the-data-profile-page)：提供组织存储在 Microsoft 365 中的个人数据的快照，包括存储和地理位置 (的数量、类型和) 。
+1. [数据](priva-data-profile.md#explore-the-data-profile-page)配置文件：提供组织存储在 Microsoft 365 中的个人数据的快照，包括存储和地理位置 (的数量、类型和) 。
 
 ## <a name="learn-about-policies"></a>了解策略
 
-隐私风险管理让你能够设置策略，以识别用户环境中的隐私Microsoft 365并轻松修正。
+隐私风险管理使你可以设置策略，以识别用户环境中的隐私Microsoft 365并轻松修正。
 
 1. [了解关键风险方案](risk-management.md#learn-about-key-risk-scenarios)
 1. [限制数据过度使用](risk-management.md#limit-data-overexposure)
@@ -120,9 +120,9 @@ ms.locfileid: "62248861"
 1. [为策略通知准备培训内容](risk-management-notifications.md#prepare-training-content-for-policy-notifications)
 1. [设置策略电子邮件通知](risk-management-notifications.md#set-up-email-notifications-for-policies)
 1. [修正电子邮件通知中的问题](risk-management-notifications.md#remediate-issues-from-email-notifications)
-1. [在邮件中Teams](risk-management-notifications.md#send-notifications-in-teams)
+1. [在邮件中发送Teams](risk-management-notifications.md#send-notifications-in-teams)
 
-## <a name="learn-about-subject-rights-requests"></a>了解主体权限请求
+## <a name="learn-about-subject-rights-requests"></a>了解有关主体权限请求的信息
 
 根据全球的某些隐私法规， (或数据) 可以请求查看或管理公司收集的有关自己的个人数据。 这些请求有时也称为数据主体请求 （DSR）、数据主体访问请求 （DSAR） 或使用者权限请求。 权限主题权限请求可以帮助你处理这些查询。
 
@@ -152,7 +152,7 @@ ms.locfileid: "62248861"
 
 ## <a name="review-data-and-collaborate-on-subject-rights-requests"></a>查看数据并协作处理主体权限请求
 
-创建主题权限请求后，一位用户将使用你有关你的主题的输入，在组织的服务环境中Microsoft 365匹配项。 编译此数据后，你可以查看结果，选择要包含哪些内容，并在必要时修订信息。
+创建主题权限请求后，用户会使用你有关主题的输入，在组织的服务环境中Microsoft 365匹配项。 编译此数据后，你可以查看结果，选择要包含哪些内容，并在必要时修订信息。
 
 1. [查看请求详细信息并监视进度](subject-rights-requests-data-review.md#step-1-review-request-details-and-monitor-progress)
 1. [查看和编辑可选的搜索 (](subject-rights-requests-data-review.md#step-2-optional-view-and-edit-search-queries)  查询) 
@@ -163,13 +163,13 @@ ms.locfileid: "62248861"
 
 完成主体权限请求的数据审阅后，可以继续请求实施。
 
-1. [为数据主体准备最终报告](subject-rights-requests-reports.md#prepare-final-reports-for-the-data-subject)
+1. [为数据主体准备最终报告](subject-rights-requests-reports.md)
 1. [与合作伙伴解决方案集成](subject-rights-requests-reports.md#integrate-with-partner-solutions)
-1. [管理数据保留](subject-rights-requests-reports.md#manage-data-retention)
+1. [管理数据保留](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
 ## <a name="automate-subject-rights-requests-tasks"></a>自动化主体权限请求任务
 
-启用 Power Automate 流程，以自动执行事例和用户的重要任务，如在 ServiceNow 中创建票证或添加有关截止日期的日历提醒。
+启用 Power Automate 流程以自动执行事例和用户的重要任务，例如，在 ServiceNow 创建票证或添加有关截止日期的日历提醒。
 
 1. [从模板Power Automate流](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
 1. [共享Power Automate流](subject-rights-requests-automate.md#share-a-power-automate-flow)
