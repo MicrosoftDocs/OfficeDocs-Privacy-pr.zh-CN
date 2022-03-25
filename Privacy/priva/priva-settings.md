@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解 Microsoft 用户全局设置选项。
-ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
-ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
+ms.openlocfilehash: d1e19ffc587f346c5ca1b414a772649342cdccaa
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63758421"
+ms.locfileid: "63765485"
 ---
 # <a name="configure-priva-settings"></a>配置 Priva 设置
 
@@ -46,7 +46,7 @@ ms.locfileid: "63758421"
 
 ## <a name="data-retention-periods"></a>数据保留期
 
-此设置与权限主体权限请求相关。 它允许您控制您希望在关闭请求后保留收集的数据和报告生成的首选项。 这可设置为 30 天或 90 天，并适用于您创建的所有主体权限请求。 我们建议验证数据保留期是否符合组织的策略和法律要求。 详细了解如何 [设置主体权限请求的数据保留](subject-rights-requests-reports.md#manage-data-retention)。
+此设置与权限主体权限请求相关。 它允许您控制您希望在关闭请求后保留收集的数据和报告生成的首选项。 这可设置为 30 天或 90 天，并适用于您创建的所有主体权限请求。 我们建议验证数据保留期是否符合组织的策略和法律要求。 详细了解主题 [权限请求的数据保留](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)。
 
 ## <a name="data-review-tags"></a>数据审阅标记
 
