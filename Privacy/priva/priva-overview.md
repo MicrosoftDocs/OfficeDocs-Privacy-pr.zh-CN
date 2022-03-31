@@ -1,5 +1,5 @@
 ---
-title: 了解 Microsoft 管理
+title: 了解 Microsoft Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,17 +16,17 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 管理中心可帮助组织评估存储在 Microsoft 365 中的个人数据，帮助他们识别和修正隐私风险，并帮助他们大规模管理主体权利请求。
-ms.openlocfilehash: 0aa8953a1ce763c6a54587f3ac0c02ffcad675fd
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: Microsoft 管理中心可帮助组织评估存储在 Microsoft 365 中的个人数据，帮助他们识别和修正隐私风险，并帮助他们大规模管理主体权限请求。
+ms.openlocfilehash: 347756c2e18c1480bd8d7a2b497515ab57794ddd
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248862"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586455"
 ---
-# <a name="learn-about-microsoft-priva"></a>了解 Microsoft 管理
+# <a name="learn-about-microsoft-priva"></a>了解 Microsoft Priva
 
-目前，对于组织和消费者来说，隐私是首要考虑事项，对如何处理个人数据的担心正在逐渐增加。 欧盟一般数据保护条例 (GDPR) 和加州消费者隐私法案 (CCPA) 等法规和法律会影响世界各地的人，为组织存储个人数据和赋予人们管理组织收集的个人数据的权利等规则。
+目前，对于组织和消费者来说，隐私是首要考虑事项，对如何处理个人数据的担心正在逐渐增加。 欧盟一般数据保护条例 (GDPR) 和加州消费者隐私法案 (CCPA) 等法规和法律会影响世界各地的人，为组织如何存储个人数据和赋予人们管理组织收集的个人数据的权利设置规则。
 
 若要满足法规要求并建立客户信任，组织需要采取"默认隐私"原则。 组织需要一个全面的解决方案来解决常见挑战，而不是手动处理和修补工具，例如：
 
@@ -91,28 +91,57 @@ Microsoft 管理中心可帮助你应对这些问题，以便实现隐私目标�
 
 个人数据通常是与生活人员相关的个人信息，可用于识别此人。 它可以是数据类型标识个人（如姓名、护照号码、社会保险号码等）或可用于标识个人的不同数据类型的组合。 根据适用法律，个人数据或个人信息的定义可能会有所不同，因此，请确保您了解您具有法律义务的数据类型。
 
-通过使用 SIT Microsoft 365 的敏感信息类型，用户可利用 Microsoft 365 组织组织的基础功能来帮助你根据你的设置[识别这些个人数据 (类型](/microsoft-365/compliance/sensitive-information-type-learn-about)) 。 若要查看所有定义的敏感信息类型的列表，请参阅 [敏感信息类型实体定义](/microsoft-365/compliance/sensitive-information-type-entity-definitions)。 能够创建自定义敏感信息类型的组织也可以利用具有管理权限的组织。
+在 SIT 中，Microsoft 365组织的基础功能来帮助你根据你的设置识别这些个人数据[ (SIT) ](/microsoft-365/compliance/sensitive-information-type-learn-about)。 若要查看所有定义的敏感信息类型的列表，请参阅 [敏感信息类型实体定义](/microsoft-365/compliance/sensitive-information-type-entity-definitions)。 能够创建自定义敏感信息类型的组织也可以利用具有管理权限的组织。
 
-用户评估存储在租户内的以下服务Microsoft 365组织Microsoft 365数据：
+用户评估存储在你的租户内的以下服务Microsoft 365组织Microsoft 365数据：
 
 - Exchange Online
 - SharePoint Online
 - OneDrive for Business
 - Microsoft Teams
 
-用户仅评估组织内部环境Microsoft 365数据。 它不能访问不是组织安全环境一Microsoft 365个人数据。 例如，它无法访问用户的个人Microsoft 365帐户。
+用户仅评估组织内部环境Microsoft 365数据。 它不能访问不是组织安全环境一部分的个人数据Microsoft 365。 例如，它无法访问用户的个人Microsoft 365帐户。
+
+## <a name="priva-availability"></a>圭亚那可用性
+
+Microsoft 管理中心已在全球范围内推出。 根据组织已预配其租户的何处，可能没有完全可用的功能。 下面的列表根据组织已预配其租户的何处概述了该租户的可用性。 如果"管理"不可用，则"隐私风险管理"和"**RightsA** 主题权限请求"不会显示在 Microsoft 365 合规中心 的左侧导航中。 我们将继续更新此列表，因为可跨所有地理位置访问管理。
+
+请访问[Microsoft 365多地理位置](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)"，了解有关在地理区域和国家/地区中预配数据有关详细信息。
+
+**可用**
+
+- 澳大利亚
+- 巴西
+- 加拿大
+- 法国
+- 德国
+- 印度
+- 日本
+- 英国
+- 美国 (注意：不适用于美国政府Community (GCC) 中等GCC高级或国防部 (DoD) 客户) 
+
+**尚不可用**
+
+- 挪威
+- Poland（波兰）
+- 卡塔尔
+- 新加坡
+- 南非
+- 韩国
+- 西班牙
+- 瑞典
+- Switzerland（瑞士）
+- 阿拉伯联合酋长国
 
 ## <a name="more-resources"></a>更多资源
 
-若要查看一个 Video preview of Privacya，请从 YouTube 上的 Microsoft Mechanics Microsoft 365基于 [AI](https://www.youtube.com/watch?v=6OLky1biPIQ) 的隐私管理。
+观看一个 13 分钟的视频，介绍 YouTube 上的 [Microsoft Mechanics 中的 Microsoft 管理](https://www.youtube.com/watch?v=6OLky1biPIQ) 功能。
 
-有关 Microsoft 如何处理隐私和保护您的数据的信息，请访问：
-
-- [Microsoft 隐私](/privacy)
+有关 Microsoft 如何处理隐私和保护您的数据的信息，请访问 [Microsoft 隐私](/privacy)。
 
 ## <a name="next-steps"></a>后续步骤
 
-若要开始使用管理，请参阅使用 [管理程序入门](priva-setup.md)。
+若要开始使用"管理"，请参阅[开始使用"。](priva-setup.md)
 
 ## <a name="legal-disclaimer"></a>法律免责声明
 
