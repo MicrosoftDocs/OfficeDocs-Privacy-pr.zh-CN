@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解如何创建和自定义隐私策略，以便在Microsoft 365中处理组织的个人数据。
-ms.openlocfilehash: 6a8fa5a77e681f9626bfc28e53d193986b40e0cb
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+ms.openlocfilehash: 2b655d778e73e2107c289988966fb491bf3ebb2e
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865771"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930503"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>在隐私风险管理中创建策略
 
@@ -33,7 +33,7 @@ ms.locfileid: "64865771"
 
 按照以下步骤使用任何默认模板创建策略。
 
-1. 在 [Microsoft 365 合规中心](https://compliance.microsoft.com/)中，转到“Priva 隐私风险管理”部分并选择 **“策略**”。
+1. 在 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)中，转到“Priva 隐私风险管理”部分并选择 **“策略**”。
 1. 选择“**创建策略**”。
 1. 选择所需的模板类型。 这将打开一个浮出窗格，其中包含有关模板的信息。
 1. 若要查看模板的默认设置，包括数据类型、数据位置以及触发策略匹配的条件，请选择 **“视图设置**”。
@@ -48,7 +48,7 @@ ms.locfileid: "64865771"
 
 所有策略类型都遵循此基本流。 某些设置和选项将根据所选策略而更改。
 
-1. 在 [Microsoft 365 合规中心](https://compliance.microsoft.com/)中，转到“Priva 隐私风险管理”部分并选择 **“策略**”。
+1. 在 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)中，转到“Priva 隐私风险管理”部分并选择 **“策略**”。
 1. 选择“**创建策略**”。
 1. 选择 **“自定义** ”选项以开始使用向导。
 1. 选择基线模板类型：**数据过度表达、****数据传输** 或 **数据最小化**。 在创建策略期间，每个选项都会为你提供某些选项。

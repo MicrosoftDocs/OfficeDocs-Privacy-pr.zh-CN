@@ -1,5 +1,5 @@
 ---
-title: 主体权限请求的数据匹配
+title: 使用者权限请求的数据匹配
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,38 +15,38 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 了解如何将有关数据主体的其他信息上载到 Microsoft 管理中心。
-ms.openlocfilehash: 1339962a1c4dba18a1d0b21d8a2cebb17ad0f91a
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: 了解如何将有关数据主题的其他信息上传到 Microsoft Priva。
+ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248926"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930575"
 ---
-# <a name="data-matching-for-subject-rights-requests"></a>主体权限请求的数据匹配
+# <a name="data-matching-for-subject-rights-requests"></a>使用者权限请求的数据匹配
 
-通过数据匹配，组织可以允许 Microsoft 用户根据提供的确切数据值来标识数据主体。 这有助于提高为内部人员和与之交互的外部用户找到与这些数据值对应的数据主体内容的准确性。 它还简化了创建主题权限请求期间手动提供字段的要求，并提供了主题权限请求中的上下文，以及展示具有最多数据主体内容的项的"概述"磁贴。 若要了解有关该视图的更多信息，请参阅 [在"管理"中查找和可视化个人数据](priva-data-profile.md#items-with-the-most-data-subject-content)。
+借助数据匹配，组织可以使 Microsoft Priva 能够根据确切提供的数据值来标识数据主体。 这有助于提高查找数据主体内容的准确性，这些内容对应于内部人员和与之交互的外部用户的数据值。 它还简化了在创建主题权限请求期间手动提供字段的需要，并在主题权限请求和概述磁贴中提供上下文，该磁贴显示具有最多数据主题内容的项目。 若要了解有关该视图的详细信息，请参阅 [Priva 中的查找和可视化个人数据](priva-data-profile.md#items-with-the-most-data-subject-content)。
 
-若要使用数据匹配功能，你需要是隐私管理角色组的成员。 在导航按钮的"[Microsoft 365 合规中心](https://compliance.microsoft.com/)中，设置顶部 **导航中的"** 数据匹配"，然后选择"**数据匹配"**。 在这里，你需要定义个人数据架构并提供个人数据上载，如下所示。 请注意，你可以添加项目，并且你可以删除通过 UI 添加的项目。 但是，此时无法从 UI 就地修改项。
+若要使用数据匹配功能，需要成为隐私管理角色组的成员。 在 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)中的 Priva 中，在顶部导航中选择 **设置**，然后 **选择数据匹配**。 在此处，需要定义个人数据架构并提供个人数据上传，如下所示。 请注意，可以添加项，并且可以删除通过 UI 添加的项。 但是，目前无法从 UI 修改就地项。
 
 ## <a name="prepare-for-data-import"></a>准备数据导入
 
-定义架构或上载数据之前，需要确定数据主体信息的来源。 必需的文件格式是.csv，应用程序（如应用程序）可以读取Microsoft Excel。 构造此导出，以便列标题显示在第一行中。 这些标头应包括个人数据架构的属性名称。 检查每个字段中数据的格式。 如果任何数据包含逗号，则使用双引号将这些值括起来，以确保不会将这些数据分入单独的字段中。
+在定义架构或上传数据之前，需要标识数据主体信息的源。 所需的文件格式.csv，应用程序（如Microsoft Excel）可以读取该格式。 构造此导出，使列标题显示在第一行中。 这些标头应包含个人数据架构的属性的名称。 检查每个字段中数据的格式。 如果任何数据包含逗号，请使用双引号括住这些值，以确保不会将其分析为单独的字段。
 
 ## <a name="define-the-personal-data-schema"></a>定义个人数据架构
 
-个人数据架构将描述数据主体的属性。 Upload数据匹配设置区域的第一个选项卡上设置此架构。 所需文件包括 **个人数据架构** XML 文件和 **规则包** XML 文件。
+个人数据架构将描述数据主体的属性。 Upload数据匹配设置区域的第一个选项卡上的此架构。 所需的文件包括 **个人数据架构** XML 文件和 **规则包** XML 文件。
 
 ### <a name="personal-data-schema-xml"></a>个人数据架构 XML
 
-个人数据架构文件是一个 XML 文件，它将定义期望的列名称。
+个人数据架构文件是一个 XML 文件，用于定义预期的列名。
 
-- 将此 *架构文件pdm.xml*。
-- 使用 Field Name 标记定义每个列名称，如下面的示例所示。
-- 对要搜索的字段使用可搜索 = "true"，最多五个字段。 至少一个字段名称必须可搜索。 示例语法： `\<Field name="" searchable=""/>`。
-- 个人数据架构具有 DataStore 标记部分。 必须将四个必填字段映射到字段名称：primaryKeyField、upnField、firstNameField、lastNameField。
+- 将此架构文件命名 *为pdm.xml*。
+- 使用字段名称标记定义每个列名称，如下面的示例所示。
+- 对要搜索的字段使用可搜索 = “true”，最多可搜索 5 个字段。 必须可以搜索至少一个字段名称。 示例语法： `\<Field name="" searchable=""/>`.
+- 个人数据架构具有 DataStore 标记部分。 必须将四个必需字段映射到字段名称：primaryKeyField、upnField、firstNameField、lastNameField。
 
-例如，以下 XML 文件定义一个示例架构，其中五个字段指定为可搜索：PatientID、MRN、SSN、电话 和 DOB。 primaryKeyField 映射到 PatientID，upnField 映射到 MRN，firstNameField 映射到 FirstName，lastNameField 映射到 LastName。
+例如，以下 XML 文件定义了一个示例架构，其中五个字段指定为可搜索：PatientID、MRN、SSN、电话 和 DOB。 primaryKeyField 映射到 PatientID，upnField 映射到 MRN，firstNameField 映射到 FirstName，lastNameField 映射到 LastName。
 
 可复制、修改和使用我们的示例。
 
@@ -68,26 +68,26 @@ ms.locfileid: "62248926"
 
 ### <a name="rule-package-xml"></a>规则包 XML
 
-设置规则包时，请确保正确引用上面创建的个人数据架构文件：pdm.xml。 在下面的示例规则包 XML 中，需要自定义以下字段以创建数据匹配敏感类型：
+设置规则包时，请确保正确引用上面创建的个人数据架构文件：pdm.xml。 在以下示例规则包 XML 中，需要自定义以下字段以创建数据匹配敏感类型：
 
-- **RulePack id** & **PrivacyMatch id**：使用 New-GUID 生成 GUID。
+- **RulePack ID** & **PrivacyMatch ID**：使用 New-GUID 生成 GUID。
 - **数据存储**：此字段指定要使用的个人数据匹配查找数据存储。 提供已配置的个人数据架构的定义 DataStore 名称。
-- **idMatch**：此字段指向个人数据匹配的主元素。
-  - **匹配**：指定要用于精确查找的字段。 提供个人数据架构中的可搜索字段名称。
-  - **分类**：此字段指定触发个人数据匹配查找的敏感类型匹配。 可提供现有内建或自定义敏感信息类型的名称或 GUID。 为了避免导致性能问题，如果在个人数据匹配中将自定义敏感信息类型用作 Classification 元素，请不要使用与大部分内容类型匹配的自定义敏感信息类型 (如"任意数字"或"任何五个字母的单词") 。 我们建议添加支持关键字或在自定义分类敏感信息类型的定义中添加格式。
-- **Match**：此字段指向在 idMatch 邻近感应中发现的其他证据。
-  - **匹配**：在个人数据架构中为 DataStore 提供任何字段名称。
-- **资源**：此部分指定多个区域设置中敏感类型的名称和说明。
-  - **idRef**：提供 ExactMatch ID 的 GUID。
+- **idMatch**：此字段指向个人数据匹配的主要元素。
+  - **匹配**：指定要在精确查找中使用的字段。 提供个人数据架构中的可搜索字段名称。
+  - **分类**：此字段指定触发个人数据匹配查找的敏感类型匹配项。 可提供现有内建或自定义敏感信息类型的名称或 GUID。 为了避免导致性能问题，如果在个人数据匹配中使用自定义敏感信息类型作为 Classification 元素，请不要使用与大量内容 (（如“任意数字”或“任何五个字母的单词”) ）匹配的自定义敏感信息类型。 建议添加支持关键字，或在自定义分类敏感信息类型的定义中包括格式设置。
+- **匹配**：此字段指向在 idMatch 附近找到的其他证据。
+  - **匹配**：在 DataStore 的个人数据架构中提供任何字段名称。
+- **资源**：本部分指定多个区域设置中敏感类型的名称和说明。
+  - **idRef**：为 ExactMatch ID 提供 GUID。
   - **名称&说明**：根据需要自定义。
 
-在下面的规则包 XML 示例中，我们将引用上一pdm.xml创建个人数据架构 XML 的示例文件：
+在下面的规则包 XML 示例中，我们引用了上一步创建个人数据架构 XML 的pdm.xml示例文件：
 
-- **Datastore**：dataStore 名称引用我们之前创建的架构文件：dataStore = "PatientRecords"。
-- **idMatch**：idMatch 值引用我们之前创建的 pdm.xml 文件中列出的可搜索字段：idMatch 匹配 = "SSN"。
-  - **分类**：分类值引用现有或自定义敏感信息类型：classification = "U.SSN (SSN) "。 （在此情况下，我们使用美国社会保障号的现有敏感信息类型。）
+- **数据存储：dataStore** 名称引用我们之前创建的架构文件：dataStore = “PatientRecords”。
+- **idMatch**：idMatch 值引用前面创建的pdm.xml文件中列出的可搜索字段：idMatch 匹配项 = “SSN”。
+  - **分类**：分类值引用现有或自定义敏感信息类型：分类 = “美国社会保障号码 (SSN) ”。 （在此情况下，我们使用美国社会保障号的现有敏感信息类型。）
 
-使用 Unicode 编码 (创建 XML 格式的规则) ，如以下示例代码所示。 您可以复制、修改和使用此示例。
+使用 Unicode 编码) 创建 XML 格式的规则包 (，如以下示例代码所示。 可以复制、修改和使用此示例。
 
  ```xml
 <RulePackage xmlns="http://schemas.microsoft.com/office/2020/pdm">
@@ -130,11 +130,11 @@ ms.locfileid: "62248926"
  ```
 
 ## <a name="upload-personal-data"></a>Upload个人数据
-定义个人数据架构后，可以在数据匹配设置页的第二个选项卡上执行个人数据上载。 选择" **添加"** 时，选择第一步中定义的个人架构，然后上载包含个人数据的文件。
+定义个人数据架构后，可以在数据匹配设置页的第二个选项卡上执行 **个人数据上传** 。 选择 **“添加**”时，选择在第一步中定义的个人架构，然后上传包含个人数据的文件。
 
-可以通过选择本地文件或向包含个人数据文件的现有位置提供 SAS MICROSOFT AZURE 存储上载此个人数据。
-如果您准备一个文件作为此过程的第一步，且该文件符合创建的架构，您可以使用该文件进行上载。
+可以通过选择本地文件或向包含个人数据文件的现有Microsoft Azure 存储位置提供 SAS URL 来上传此个人数据。
+如果将文件准备为此过程中符合所创建架构的第一步，则可以使用该文件进行上传。
 
 ## <a name="legal-disclaimer"></a>法律免责声明
 
-[Microsoft 管理中心法律免责声明](priva-disclaimer.md)
+[Microsoft Priva 法律免责声明](priva-disclaimer.md)
