@@ -14,10 +14,14 @@
   items:
     - name: 了解隐私风险管理
       href: risk-management.md
-    - name: 创建策略
+    - name: 了解如何创建和管理策略
       href: risk-management-policies.md
-    - name: 管理策略
-      href: risk-management-policies-manage.md
+    - name: 创建数据过度曝光策略
+      href: risk-management-policy-data-overexposure.md
+    - name: 创建数据传输策略
+      href: risk-management-policy-data-transfer.md
+    - name: 创建数据最小化策略
+      href: risk-management-policy-data-minimization.md
     - name: 调查和修正警报
       href: risk-management-alerts.md
     - name: 发送用户通知
