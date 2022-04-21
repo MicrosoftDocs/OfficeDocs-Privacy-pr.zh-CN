@@ -15,25 +15,25 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 了解 Microsoft Priva 隐私风险管理解决方案用于管理数据最小化、数据传输和数据过度表达风险的功能。 使用策略来检测和修正问题。
-ms.openlocfilehash: f5a263a958cd103ef8145f6006f689c9dffea5b0
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+description: 了解 Microsoft Priva 隐私风险管理解决方案用于管理数据最小化、数据传输和数据过度显示风险的功能。 使用策略来检测和修正问题。
+ms.openlocfilehash: 88d7bc968315845eebd6cdcae3d3344c75b31ee7
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865761"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014512"
 ---
 # <a name="learn-about-priva-privacy-risk-management"></a>了解 Priva 隐私风险管理
 
-Microsoft Priva 中的隐私风险管理使你能够设置策略，以识别Microsoft 365环境中的隐私风险，并启用简单的补救措施。 隐私风险管理的策略是内部指南，可以帮助你：
+Microsoft Priva 中的隐私风险管理使你能够设置策略，以识别Microsoft 365环境中的隐私风险，并启用简单的补救措施。 隐私风险管理策略是内部指南，可帮助你：
 
-- 检测过度表达的个人数据，以便用户可以保护它
-- 发现和限制跨部门或地区边界传输个人数据
-- 帮助用户识别和减少你存储的未使用个人数据量
+- 检测过度显示的个人数据，以便用户可以保护它。
+- 发现和限制跨部门或区域边界传输个人数据。
+- 帮助用户识别和减少你存储的未使用个人数据量。
 
-隐私风险管理针对这些方案的内置模板可让你轻松开始策略构建。 还可以通过 [创建自定义](risk-management-policies.md)策略来微调方法，并使用这些模板中的任何一个作为起点。
+隐私风险管理为这些方案提供内置模板，以帮助你轻松创建策略。 还可以通过 [创建自定义策略](risk-management-policies.md)来微调方法，并使用这些模板中的任何一个作为起点。
 
-找到策略匹配项时，管理员可以查看有关发现情况的警报，并通过为用户的进一步操作创建问题来决定如何处理数据。 若要了解详细信息，请参阅隐私 [风险管理中的调查和修正警报](risk-management-alerts.md)。 还可以配置电子邮件通知，对于受支持的策略类型，Teams通知直接通知内容所有者有关策略匹配的信息。 他们可以从这些通知中采取纠正措施，并详细了解使用你提供到自己的培训材料的链接处理数据的最佳做法。 有关详细信息，请参阅 [隐私风险管理中的“发送用户通知](risk-management-notifications.md)”。
+找到策略匹配项时，管理员可以查看有关结果的警报，并通过为用户的进一步操作创建问题来决定如何处理数据。 若要了解详细信息，请参阅隐私 [风险管理中的调查和修正警报](risk-management-alerts.md)。 还可以配置电子邮件通知，对于受支持的策略类型，Teams通知直接通知内容所有者有关策略匹配的信息。 他们可以从这些通知中采取纠正措施，并详细了解使用你提供到自己的培训材料的链接处理数据的最佳做法。 有关详细信息，请参阅 [隐私风险管理中的“发送用户通知](risk-management-notifications.md)”。
 
 ## <a name="learn-about-key-risk-scenarios"></a>了解关键风险方案
 
@@ -51,11 +51,17 @@ Microsoft Priva 中的隐私风险管理使你能够设置策略，以识别Micr
 
 数据传输策略允许监视不同世界区域之间或组织中的部门之间的传输，以及组织外部的传输。 检测到策略匹配时，可以向用户发送电子邮件通知，允许他们在电子邮件中采取纠正措施，例如使内容项成为私有项、通知内容所有者或标记项目以供进一步查看。
 
+了解如何创建 [数据传输策略](risk-management-policy-data-transfer.md)。
+
 ## <a name="minimize-stored-data"></a>最小化存储的数据
 
 随着时间的推移，公司可以从客户或员工收集大量个人数据。 有时，这包括不再需要存储且未使用的数据。 应减少此类数据以限制隐私风险。 数据最小化策略可用于解决此类风险。
 
 通过数据最小化策略，可以查找组织已存储至少一定时间长度的数据。 这可以帮助你管理正在进行的存储实践。 找到策略匹配项时，修正选项包括标记要删除的项目、通知内容所有者或标记项目以供进一步查看。
+
+## <a name="next-steps-learn-about-policies"></a>后续步骤：了解策略
+
+请访问 [隐私风险管理策略](risk-management-policies.md) ，了解如何创建处理这些关键隐私 scenaios 的策略。
 
 ## <a name="legal-disclaimer"></a>法律免责声明
 

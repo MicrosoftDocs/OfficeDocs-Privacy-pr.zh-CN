@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解 Microsoft Priva 试用版、查看试用期间要采取的建议操作，以及查看重要文档的链接。
-ms.openlocfilehash: 567901cf75440b76fc5c3b755894cada188d6505
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930523"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014392"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>试用版 playbook：Microsoft Priva
 
@@ -87,21 +87,21 @@ Priva 通过自动发现个人数据资产并提供基本信息的可视化效�
 
 ## <a name="create-and-customize-policies"></a>创建和自定义策略
 
-在隐私风险管理中创建新策略，以解决对组织至关重要的隐私风险方案。 若要快速入门，请使用默认模板为数据过度表达、数据传输以及数据最小化和方案创建新策略。
+在隐私风险管理中创建新策略，以解决对组织至关重要的隐私风险方案。 若要快速入门，请使用模板默认设置为数据过度表达、数据传输以及数据最小化和方案创建新策略。
 
-1. [从模板创建策略](risk-management-policies.md#create-a-policy-from-a-template)
-1. [创建自定义策略](risk-management-policies.md#create-a-custom-policy)
-1. [了解所有策略的关键设置](risk-management-policies.md#learn-about-key-settings-for-all-policies)
-1. [了解数据最小化策略的设置](risk-management-policies.md#learn-about-settings-for-data-minimization-policies)
-1. [了解数据传输策略的设置](risk-management-policies.md#learn-about-settings-for-data-transfer-policies)
-1. [了解数据过度表达策略的设置](risk-management-policies.md#learn-about-settings-for-data-overexposure-policies)
+1. [使用具有默认设置的模板创建策略](risk-management-policies.md#quick-setup-using-a-template-with-default-settings)
+1. [通过自定义模板设置创建策略](risk-management-policies.md#custom-setup-guided-process-to-choose-all-settings)
+1. [了解所有策略的关键设置](risk-management-policies.md)
+1. [了解数据最小化策略的设置](risk-management-policy-data-minimization.md)
+1. [了解数据传输策略的设置](risk-management-policy-data-transfer.md)
+1. [了解数据过度表达策略的设置](risk-management-policy-data-overexposure.md)
 
 ## <a name="manage-policies"></a>管理策略
 
 在隐私风险管理中创建策略以处理数据最小化、数据传输或数据过度表达方案后，可能需要查看或更新策略设置。 你可能还希望在完全推出新策略以供持续使用之前测试新策略。
 
-1. [查看策略详细信息](risk-management-policies-manage.md#view-policy-details)
-1. [测试策略](risk-management-policies-manage.md#test-your-policy)
+1. [查看策略详细信息](risk-management-policies-manage.md#view-details-and-activity-from-the-policy-details-page)
+1. [测试策略](risk-management-policies-manage.md#testing-a-policy)
 1. [删除策略](risk-management-policies-manage.md#delete-a-policy)
 
 ## <a name="understand-policy-alerts-and-issues"></a>了解策略警报和问题
@@ -117,9 +117,9 @@ Priva 通过自动发现个人数据资产并提供基本信息的可视化效�
 
 隐私风险管理可以直接通知内容所有者有关数据过度表达、数据最小化和数据传输策略匹配的信息。 通过电子邮件通知，用户可以轻松地了解他们需要查看的内容。
 
-1. [为策略通知准备训练内容](risk-management-notifications.md#prepare-training-content-for-policy-notifications)
-1. [设置策略的电子邮件通知](risk-management-notifications.md#set-up-email-notifications-for-policies)
-1. [修正电子邮件通知中的问题](risk-management-notifications.md#remediate-issues-from-email-notifications)
+1. [为策略通知准备训练内容](risk-management-notifications.md#prepare-training-content-for-notifications)
+1. [设置策略的电子邮件通知](risk-management-notifications.md#set-user-email-notifications)
+1. [预览和自定义电子邮件通知](risk-management-notifications.md#preview-and-customize-email-content)
 1. [在Teams中发送通知](risk-management-notifications.md#send-notifications-in-teams)
 
 ## <a name="learn-about-subject-rights-requests"></a>了解有关主体权限请求的信息
@@ -148,7 +148,7 @@ Priva 通过自动发现个人数据资产并提供基本信息的可视化效�
 
 1. [准备数据导入](subject-rights-requests-data-match.md#prepare-for-data-import)
 1. [定义个人数据架构](subject-rights-requests-data-match.md#define-the-personal-data-schema)
-1. [Upload个人数据](subject-rights-requests-data-match.md#upload-personal-data)
+1. [上传个人数据](subject-rights-requests-data-match.md#upload-personal-data)
 
 ## <a name="review-data-and-collaborate-on-subject-rights-requests"></a>查看数据并协作处理主体权限请求
 
@@ -169,11 +169,11 @@ Priva 通过自动发现个人数据资产并提供基本信息的可视化效�
 
 ## <a name="automate-subject-rights-requests-tasks"></a>自动化主体权限请求任务
 
-为 Priva 启用Power Automate流以自动执行事例和用户的重要任务，例如在 ServiceNow 中创建票证或添加有关截止日期的日历提醒。
+为 Priva 启用 Power Automate 流以自动执行事例和用户的重要任务，例如在 ServiceNow 中创建票证或添加有关截止日期的日历提醒。
 
-1. [从模板创建新的Power Automate流](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
-1. [共享Power Automate流](subject-rights-requests-automate.md#share-a-power-automate-flow)
-1. [编辑或删除Power Automate流](subject-rights-requests-automate.md#edit-or-delete-power-automate-flow)
+1. [从模板创建新的 Power Automate 流](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
+1. [共享 Power Automate 流](subject-rights-requests-automate.md#share-a-power-automate-flow)
+1. [编辑或删除 Power Automate 流](subject-rights-requests-automate.md#edit-or-delete-power-automate-flow)
 
 ## <a name="additional-resources"></a>其他资源
 
