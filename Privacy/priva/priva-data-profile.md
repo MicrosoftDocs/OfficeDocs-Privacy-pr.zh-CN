@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解 Priva 中的概述和数据配置文件，以及如何深入了解组织Microsoft 365环境中的个人数据。
-ms.openlocfilehash: 13a27fde86abf87fa4c08528f41976fdc58fe02f
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930593"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059746"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>在 Microsoft Priva 中查找和可视化个人数据
 
@@ -75,7 +75,7 @@ Microsoft Priva 通过自动发现个人数据资产并提供基本信息的可�
 
 #### <a name="items-with-the-most-data-subject-content"></a>数据主体内容最多的项
 
-此见解引用主题权限请求中数据匹配功能中的信息，并显示在包含最多数据主体的Microsoft 365中发现的内容项。 若要了解有关该设置的详细信息，请 [参阅了解主题权限请求](subject-rights-requests.md)。
+此见解显示包含大多数数据主体的个人数据的内容项。 若要接收这些见解，组织需要 [为使用者权限请求设置数据匹配](subject-rights-requests-data-match.md)。
 
 这些项目有助于确认数据匹配配置，并有助于缓解与这些项目相关的隐私风险。 选择 **摘要视图的“视图摘要** ”。 选择 **“浏览”** 以查看其中多达 100 个项目的详细视图。 可在此处预览这些项并确定相关性，并以.csv格式导出列表。
 
