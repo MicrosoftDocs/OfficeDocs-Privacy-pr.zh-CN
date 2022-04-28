@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解如何将有关数据主题的其他信息上传到 Microsoft Priva。
-ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 90ee0e8e21d25954c11113992cbb7ece847c85ab
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930575"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65059736"
 ---
 # <a name="data-matching-for-subject-rights-requests"></a>使用者权限请求的数据匹配
 
 借助数据匹配，组织可以使 Microsoft Priva 能够根据确切提供的数据值来标识数据主体。 这有助于提高查找数据主体内容的准确性，这些内容对应于内部人员和与之交互的外部用户的数据值。 它还简化了在创建主题权限请求期间手动提供字段的需要，并在主题权限请求和概述磁贴中提供上下文，该磁贴显示具有最多数据主题内容的项目。 若要了解有关该视图的详细信息，请参阅 [Priva 中的查找和可视化个人数据](priva-data-profile.md#items-with-the-most-data-subject-content)。
 
-若要使用数据匹配功能，需要成为隐私管理角色组的成员。 在 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)中的 Priva 中，在顶部导航中选择 **设置**，然后 **选择数据匹配**。 在此处，需要定义个人数据架构并提供个人数据上传，如下所示。 请注意，可以添加项，并且可以删除通过 UI 添加的项。 但是，目前无法从 UI 修改就地项。
+若要使用数据匹配功能，需要成为隐私管理角色组的成员。 在 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)中的 Priva 中，在顶部导航中选择 **设置**，然后 **选择数据匹配**。 在此处，需要定义个人数据架构并提供个人数据上传，如下所示。 请注意，可以添加项，并且可以删除添加的项，但不能修改项目。
 
 ## <a name="prepare-for-data-import"></a>准备数据导入
 
@@ -35,7 +35,7 @@ ms.locfileid: "64930575"
 
 ## <a name="define-the-personal-data-schema"></a>定义个人数据架构
 
-个人数据架构将描述数据主体的属性。 Upload数据匹配设置区域的第一个选项卡上的此架构。 所需的文件包括 **个人数据架构** XML 文件和 **规则包** XML 文件。
+设置数据匹配的第一步是定义个人数据架构，该架构将描述数据主体的属性。 你将在数据匹配设置区域的第一个选项卡上传此架构。 所需的文件包括 **个人数据架构** XML 文件和 **规则包** XML 文件。
 
 ### <a name="personal-data-schema-xml"></a>个人数据架构 XML
 
@@ -129,8 +129,13 @@ ms.locfileid: "64930575"
 </RulePackage>
  ```
 
+## <a name="sensitive-info-types"></a>敏感信息类型
+
+设置数据匹配的第二步是为个人数据匹配创建唯一的敏感信息类型 (PDM) 。 [ (SIT) 的敏感信息类型 ](/microsoft-365/compliance/sensitive-information-type-learn-about)是基于模式的分类器，用于检测诸如社会保障或信用卡号等敏感信息。 通过设置 PDM 敏感信息类型，可以使用确切的数据值而不是泛型值来检测匹配项。 若要开始此步骤，请选择 **“创建 PDM 敏感信息类型** ”以启动创建向导。
+
 ## <a name="upload-personal-data"></a>Upload个人数据
-定义个人数据架构后，可以在数据匹配设置页的第二个选项卡上执行 **个人数据上传** 。 选择 **“添加**”时，选择在第一步中定义的个人架构，然后上传包含个人数据的文件。
+
+定义个人数据架构和敏感信息类型后，第三步是上传个人数据。 转到 **“个人数据上传** ”选项卡，选择 **“添加**”，然后选择在第一步中定义的个人架构，然后上传包含个人数据的文件。
 
 可以通过选择本地文件或向包含个人数据文件的现有Microsoft Azure 存储位置提供 SAS URL 来上传此个人数据。
 如果将文件准备为此过程中符合所创建架构的第一步，则可以使用该文件进行上传。
