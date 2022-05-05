@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解如何在 Microsoft Priva 中创建新的主题权限请求。
-ms.openlocfilehash: b2d846aa4020be315705bbd16e00378c7514146c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: af772d585e3e9b554f42f6adde99bba19173ee03
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930603"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059726"
 ---
 # <a name="create-a-subject-rights-request"></a>创建主题权限请求
 
@@ -38,6 +38,21 @@ Priva 使用者权限请求支持三种不同类型的请求：
 2. **导** 出：提供包含数据主体个人信息的内容项的摘要和导出文件。 这些项目在查看搜索设置收集的数据时已审阅并标记为 **“包含** ”。
 
 3. **用于跟进的标记列表**：生成在数据评审期间标记的任何文件的摘要，这些文件可能需要在 Priva 之外执行其他操作。 例如，可能需要根据数据主体的请求帮助删除其个人信息。 可以在 [Priva 设置](priva-settings.md)中查看包含的标记并为组织设置自定义标记。
+
+## <a name="getting-started-with-your-first-request"></a>第一个请求入门
+
+当你启动使用者权限请求的试用版或订阅时，我们会为使用默认设置的第一个请求提供简单的现用设置。 此设置可帮助你浏览主题权限请求工作流并熟悉其功能。
+
+第一次到达“主题权限请求”页时，顶部会显示一个横幅，上面有 **一个开始** 按钮。 当用户选择此按钮时，将显示一个浮出窗格，其中预填充到名称和电子邮件字段中，并显示所有默认设置。
+
+**使用信息探索请求功能**：根据自己的信息试用主题权限请求可帮助你熟悉和舒适地完成过程的每个阶段。 你将看到什么是默认搜索 yeilds，可以通过调整搜索设置来练习优化结果。 在 **“收集的数据”** 选项卡上，可以查看右侧预览区域中的项目，并练习修改文本、应用标记、输入笔记和标记要包含或排除的最终报表项 (在 [审阅数据中查找主题权限请求](subject-rights-requests-data-review.md)) 的详细信息。
+
+- 无需使用信息创建第一个请求。 如果已准备好启动对数据主体的请求，只需将姓名和电子邮件地址替换为数据主体的信息。
+
+若要接受所有设置并创建请求，请选择 **“创建**”。 该窗格将关闭，你将看到“ **主题权限请求** ”页上列出的新请求。 若要在创建请求之前更改任何默认设置，请选择 **“编辑请求详细信息**”，将你置于 [主题权限请求创建向导](#use-the-subject-rights-request-creation-wizard)中。
+
+> [!NOTE]
+> 创建的任何请求都将计入试用或付费订阅分配，而不考虑哪个数据主体的信息用于请求。 关闭请求后，将应用标准的 30 天数据保留期。 了解如何更改 [使用者权限请求的保留期](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)。
 
 ## <a name="use-the-subject-rights-request-creation-wizard"></a>使用使用者权限请求创建向导
 
