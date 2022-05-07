@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解如何管理 Microsoft Priva 隐私风险管理中策略匹配项引发的警报和问题。
-ms.openlocfilehash: cc24342bc86bf327892b34ed26650070a7addbf0
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+ms.openlocfilehash: a770a7b8d77e2d7792fc4ea8c68914dc62b48a27
+ms.sourcegitcommit: 0e68501654f702d8b8b694ae696bb8bd7fa7cea6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014382"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "65268325"
 ---
 # <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>调查和修正隐私风险管理中的警报
 
@@ -71,9 +71,9 @@ Priva 的 **“概述** ”页提供了有关最近发现结果的视图，其�
 
 - **通知所有者**：通知内容所有者检测到的问题。
 
-- **应用保留标签**：添加有关此项的数据保留的标签。 [详细了解保留标签](/microsoft-365/compliance/create-apply-retention-labels)。
+- **应用保留标签**：为此项添加可保留、删除或保留的标签，然后在指定时间后将其删除。 [详细了解保留标签](/microsoft-365/compliance/retention)。
 
-- **应用敏感度标签**：添加有关此项数据敏感度的标签。 [详细了解敏感度标签](/microsoft-365/compliance/sensitivity-labels)。
+- **应用敏感度标签**：为此项添加标识其敏感度的标签，并根据需要添加包含视觉标记和加密的保护。 [详细了解敏感度标签](/microsoft-365/compliance/sensitivity-labels)。
 
 - **标记为不匹配**：将搜索结果标识为误报，以从注意事项中删除内容项。
 
