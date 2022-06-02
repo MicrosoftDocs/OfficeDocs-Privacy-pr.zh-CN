@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解Microsoft Priva试用版、查看试用期间要采取的建议操作，以及查看重要文档的链接。
-ms.openlocfilehash: 5dfffcd90f019b71e74be007ed35dc21fb95aa99
-ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
+ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65678199"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851687"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>试用版 playbook：Microsoft Priva
 
@@ -164,10 +164,10 @@ Priva通过自动发现个人数据资产并提供基本信息的可视化效果
 完成主题权限请求的数据评审后，可以继续请求履行。
 
 1. [为数据主题准备最终报表](subject-rights-requests-reports.md)
-1. [与合作伙伴解决方案集成](subject-rights-requests-reports.md#integrate-with-partner-solutions)
+1. [通过 Microsoft 图形 API 和 Power Automate 集成和扩展](subject-rights-requests-automate.md)
 1. [管理数据保留](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
-## <a name="automate-subject-rights-requests-tasks"></a>自动化主体权限请求任务
+## <a name="extend-with-power-automate"></a>使用Power Automate扩展
 
 为Priva启用Power Automate流，以便自动执行事例和用户的重要任务，例如在 ServiceNow 中创建票证或添加有关截止日期的日历提醒。
 

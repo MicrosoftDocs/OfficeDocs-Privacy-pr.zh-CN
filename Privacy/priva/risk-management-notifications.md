@@ -1,5 +1,5 @@
 ---
-title: 在隐私风险管理中发送用户通知
+title: 隐私风险管理中的用户通知
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 了解如何向内容所有者通知 Microsoft Priva 隐私风险管理找到的策略匹配项，以及如何使用这些电子邮件通知来修正问题。
-ms.openlocfilehash: 8969e1cd4d5859102b18bd46723d1be6e85d35f6
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: 了解如何向内容所有者通知Microsoft Priva 隐私风险管理找到的策略匹配项，以及如何使用这些电子邮件通知来修正问题。
+ms.openlocfilehash: ae02d3bca9c63f8645cd9671628de61d83cb6117
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014372"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851647"
 ---
 # <a name="user-notifications-in-privacy-risk-management"></a>隐私风险管理中的用户通知
 
@@ -48,11 +48,11 @@ ms.locfileid: "65014372"
 创建新策略或编辑现有策略时，可以为所有策略类型设置电子邮件通知。 这些设置位于策略创建向导的 **“结果** ”页上。 访问 [定义结果：用户通知和有关](risk-management-policies.md#define-outcomes-user-email-notifications-and-tips) 完整说明的提示。
 
 > [!NOTE]
-> 隐私风险管理发送电子邮件通知的总体功能在 Priva **设置** 中受到控制。 默认情况下处于启用状态。 关闭此设置将停止所有电子邮件，即使已在单个策略级别配置了通知。 详细了解 [用户通知电子邮件设置](priva-settings.md#user-notification-emails)。
+> 隐私风险管理发送电子邮件通知的总体功能控制在Priva **设置** 中。 默认情况下处于启用状态。 关闭此设置将停止所有电子邮件，即使已在单个策略级别配置了通知。 详细了解 [用户通知电子邮件设置](priva-settings.md#user-notification-emails)。
 
 ## <a name="send-notifications-in-teams"></a>在Teams中发送通知
 
-对于数据传输策略，可以在检测到策略匹配时，选择用户在安全Teams通道中接收策略提示和建议。 这些提示可帮助用户负责任地使用个人数据。 提示还包括相关培训的链接。
+对于数据传输策略，可以在检测到策略匹配时，选择用户在安全Teams通道中接收策略提示和建议。 这些提示可帮助用户负责任地使用个人数据。 使用技巧还将包含相关培训的链接。
 
 若要详细了解如何设置这些通知，请访问 [“定义结果：用户通知和提示](risk-management-policies.md#define-outcomes-user-email-notifications-and-tips)”。
 
@@ -77,4 +77,4 @@ ms.locfileid: "65014372"
 
 ## <a name="legal-disclaimer"></a>法律免责声明
 
-[Microsoft Priva 法律免责声明](priva-disclaimer.md)
+[Microsoft Priva法律免责声明](priva-disclaimer.md)
