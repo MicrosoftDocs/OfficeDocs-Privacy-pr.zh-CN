@@ -32,11 +32,11 @@
       href: subject-rights-requests.md
     - name: 创建请求
       href: subject-rights-requests-create.md
-    - name: 设置数据匹配
-      href: subject-rights-requests-data-match.md
     - name: 查看数据并进行协作
       href: subject-rights-requests-data-review.md
-    - name: 获取报告并完成请求
+    - name: 生成报表以满足请求
       href: subject-rights-requests-reports.md
-    - name: 自动执行任务
+    - name: 与 Microsoft Graph API 和 Power Automate 集成
       href: subject-rights-requests-automate.md
+    - name: 设置数据匹配
+      href: subject-rights-requests-data-match.md
