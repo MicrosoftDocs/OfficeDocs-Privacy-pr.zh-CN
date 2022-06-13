@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva中的“主题权限请求”解决方案可帮助你查找个人数据，并协作查看内容和创建报表。
-ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: ecb1e1984116b29f51cde21c9a4a554cb8183ae9
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851677"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046706"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>了解Priva 主体权利请求
 
@@ -53,9 +53,9 @@ Priva使用Microsoft 365的基础功能来识别组织数据中的个人数据�
 
 通过使用内置Power Automate模板之一为常见任务设置流（例如在 ServiceNow 中设置日历提醒或创建请求记录）来扩展自动化功能。 还可以使用Microsoft 365使用者权限请求 API 将自动化引入现有主题权限策略。
 
-## <a name="getting-started"></a>入门
+## <a name="next-steps"></a>后续步骤
 
-访问 [“创建主题权限”请求](subject-rights-requests-create.md) ，了解如何通过第一个请求进行说明。
+访问 [“了解请求工作流和详细信息”页](subject-rights-requests-workflow.md) ，了解创建和处理主题权限请求的进度步骤。 若要开始使用第一个请求，请参阅 [“创建主题权限请求](subject-rights-requests-create.md)”。
 
 ## <a name="legal-disclaimer"></a>法律免责声明
 

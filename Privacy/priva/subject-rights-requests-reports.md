@@ -1,5 +1,5 @@
 ---
-title: 生成报表以满足使用者权限请求
+title: 生成报表并关闭请求
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,16 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解如何管理Microsoft Priva为使用者权限请求创建的数据包，并满足对数据主体的请求。
-ms.openlocfilehash: 999de2aecefab2c1685967d197839fbb72938f8a
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: 44113c480f81e6ef885de3649d9e04810c776d7c
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851657"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046686"
 ---
-# <a name="generate-reports-to-fulfill-a-subject-rights-request"></a>生成报表以满足使用者权限请求
+# <a name="generate-reports-and-close-a-request"></a>生成报表并关闭请求
 
-在Microsoft Priva中完成主题权限请求的数据评审后，可以继续执行请求。 Priva将在数据评审过程中创建报表并收集标记为 **Include** 的文件。 可以将这些数据包中的选定文件提交到数据主体以完成其请求。
+**本文**：了解在使用者权限请求中生成的报表类型。 了解收集的数据的保留期，并查找向数据主体传递结果和关闭请求的说明。
+
+完成主题权限请求的数据评审后，下一阶段是生成满足请求所需的报告。 Priva将在数据评审过程中创建报表并收集标记为 **Include** 的文件。 可以将这些数据包中的选定文件提交到数据主体以完成其请求。
 
 ## <a name="understanding-reports"></a>了解报表
 
@@ -37,7 +39,7 @@ ms.locfileid: "65851657"
    > 只有在数据评审期间将项目标记为 **Include** 时，才会生成数据包。
 
    > [!IMPORTANT]
-   > 仅针对 **导** 出和 **访问** 类型的请求生成数据包。 不会为标记列表生成数据包 **以供后续** 请求使用。 查看有关 [主题权限请求类型的](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard)详细信息。
+   > 仅针对 **导** 出和 **访问** 类型的请求生成数据包。 不会为标记列表生成数据包 **以供后续** 请求使用。 查看有关 [主题权限请求类型的](subject-rights-requests-create.md#request-types)详细信息。
 
 2. **报表供内部使用**：这些报表适用于组织与主题权限请求相关的内部记录。 其中包括审核日志和在数据评审期间应用标记的所有文件的列表，以便跟进或采取进一步操作。
 
@@ -102,6 +104,12 @@ ms.locfileid: "65851657"
 4. 选择 **“保存** ”以保存设置。
 
 请务必验证所选数据保留期是否符合组织的策略和法律义务。
+
+## <a name="close-the-request"></a>关闭请求
+
+执行与主题权限请求相关的所有必要操作后，选择“关闭请求详细信息”页右上角的 **请求，** 将请求标记为已关闭。 关闭请求意味着它不再处于活动状态，并指示不需要进一步的工作才能满足数据主体对组织的原始请求。
+
+无法重新打开已关闭的请求，但可以返回到请求以查看请求详细信息和备注。 根据已建立的 [保留期](#retention-periods-for-reports-and-data)保留请求的报告。
 
 ## <a name="legal-disclaimer"></a>法律免责声明
 

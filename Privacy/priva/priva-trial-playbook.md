@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解Microsoft Priva试用版、查看试用期间要采取的建议操作，以及查看重要文档的链接。
-ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851687"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046586"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>试用版 playbook：Microsoft Priva
 
@@ -69,7 +69,7 @@ ms.locfileid: "65851687"
 
 Priva通过自动发现个人数据资产并提供基本信息的可视化效果来帮助你了解组织存储的数据。
 
-若要开始，请转到Microsoft Purview 合规门户的[Priva](https://compliance.microsoft.com/)部分并查看以下页面：
+若要开始，请转到 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)的Priva部分并查看以下页面：
 
 1. [概述](priva-data-profile.md#explore-the-overview-page)：提供隐私状况的聚合视图，包括Microsoft 365环境中个人数据的卷、类别、位置和移动。 此外，还可以了解个人数据过度共享、传输或未使用所产生的相关隐私风险的当前状态和趋势。
 1. [数据配置文件](priva-data-profile.md#explore-the-data-profile-page)：提供组织在Microsoft 365中存储的个人数据的快照，包括卷、类型和位置 (存储和地理) 。
@@ -138,9 +138,9 @@ Priva通过自动发现个人数据资产并提供基本信息的可视化效果
 
 使用者权限管理管理员可以通过主“主题权限请求”页打开新的主题权限请求。 向导将指导你完成查找有关数据主体的个人数据并开始完成其请求的过程的过程。
 
-1. [使用使用者权限请求向导](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard) - 创建请求
-1. [定义搜索设置](subject-rights-requests-create.md#define-search-settings)
-1. [优化搜索设置](subject-rights-requests-create.md#refine-your-search)
+1. [使用使用者权限请求向导](subject-rights-requests-create.md#create-a-request) - 创建请求
+1. [定义搜索设置](subject-rights-requests-create.md#defining-search-settings)
+1. [优化搜索设置](subject-rights-requests-create.md#refining-your-search)
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>管理使用者权限请求的数据匹配
 
@@ -154,10 +154,10 @@ Priva通过自动发现个人数据资产并提供基本信息的可视化效果
 
 创建主题权限请求后，Priva将使用有关主题的输入在组织的Microsoft 365环境中查找匹配项。 编译此数据后，可以查看调查结果，选择要包含的内容，并根据需要修改信息。
 
-1. [查看请求详细信息并监视进度](subject-rights-requests-data-review.md#step-1-review-request-details-and-monitor-progress)
-1. [查看和编辑搜索查询](subject-rights-requests-data-review.md#step-2-optional-view-and-edit-search-queries)  (可选) 
-1. [查看数据](subject-rights-requests-data-review.md#step-3-review-data)
-1. [关闭请求](subject-rights-requests-data-review.md#step-4-close-the-request)
+1. [查看请求详细信息并监视进度](subject-rights-requests-workflow.md)
+1. [查看和编辑搜索查询](subject-rights-requests-create.md#defining-search-settings)  (可选) 
+1. [查看数据](subject-rights-requests-data-review.md)
+1. [关闭请求](subject-rights-requests-reports.md)
 
 ## <a name="manage-subject-rights-requests-reports-and-fulfill-requests"></a>管理主体权限请求报告和满足请求
 

@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 了解如何在 Microsoft Priva 隐私风险管理中创建数据处理策略，以阻止在组织内部或外部传输个人数据。
-ms.openlocfilehash: 6d491a7a65035aa1e3a405f36ef30b95f9c29245
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: 了解如何在Microsoft Priva 隐私风险管理中创建数据处理策略，以阻止在组织内部或外部传输个人数据。
+ms.openlocfilehash: eba53580365d1fee387c05a54093ab04e41cd15f
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014478"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046646"
 ---
 # <a name="data-transfer-policies-in-privacy-risk-management"></a>隐私风险管理中的数据传输策略
 
@@ -44,7 +44,7 @@ ms.locfileid: "65014478"
 
 按照以下步骤创建默认数据传输策略：
 
-1. 在 [Microsoft 365 合规中心](https://compliance.microsoft.com/)中，在左侧导航栏中找到 Priva 隐私风险管理，然后选择 **“策略**”。
+1. 在 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)中，在左侧导航中查找Priva 隐私风险管理并选择 **“策略**”。
 
 2. 选择屏幕右上角的 **“创建策略** ”，其中显示一个浮出窗格，其中列出了所有策略创建选项。
 
@@ -80,7 +80,7 @@ ms.locfileid: "65014478"
 
 完成以下步骤以创建新的数据传输策略：
 
-1. 在 [Microsoft 365 合规中心](https://compliance.microsoft.com/)中，在左侧导航栏中找到 Priva 隐私风险管理，然后选择 **“策略**”。
+1. 在 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)中，在左侧导航中查找Priva 隐私风险管理并选择 **“策略**”。
 
 2. 选择屏幕右上角的 **“创建策略** ”按钮，其中显示一个浮出窗格，其中列出了所有策略创建选项。
 
@@ -108,7 +108,7 @@ ms.locfileid: "65014478"
     - **跨国家/地区传输**：对于此选项，你将选择一个发件人区域和一个收件人区域。 从显示的浮出窗格中选择指定的国家或地区，然后选择 **“添加**”。
 
 9. 在 **“结果”页上** ，决定是否在用户匹配策略设置的条件时通知用户。 可以选择以下一个或两个选项，或通过将复选框留空来选择这两个选项：
-    - **Microsoft Teams中发送的提示**：当用户执行与策略条件匹配的操作时，数据处理提示将显示在用户的Teams实例中。 需要为首选隐私培训添加 URL，该 URL 也会显示在提示中。
+    - **Microsoft Teams中发送的使用技巧**：当用户执行与策略条件匹配的操作时，数据处理提示将显示在用户的Teams实例中。 需要为首选隐私培训添加 URL，该 URL 也会显示在提示中。
     - **电子邮件通知**：当用户的操作与策略条件匹配时，用户将收到电子邮件通知。 电子邮件将包含直接从电子邮件执行补救措施的说明，以及隐私培训链接。 你将指定电子邮件的频率和首选隐私培训的 URL。
      
     详细了解如何设置 [用户通知](risk-management-notifications.md)。 选择结果后，选择 **“下一步**”。

@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 了解如何在 Microsoft Priva 隐私风险管理中创建和管理策略，以便在Microsoft 365中处理组织的个人数据。
-ms.openlocfilehash: 87671cedc8c6cba75d5ad207b52831cdd2467187
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: 了解如何在Microsoft Priva 隐私风险管理中创建和管理策略，以便在Microsoft 365中处理组织的个人数据。
+ms.openlocfilehash: ff8ee92f192d2dc45998a97638e1bd0bada1fef3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014492"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046606"
 ---
 # <a name="privacy-risk-management-policies"></a>隐私风险管理策略
 
@@ -43,7 +43,7 @@ ms.locfileid: "65014492"
 
 直接从模板创建策略时，将自动为你选择大多数设置，以帮助快速启动和运行。 按照以下步骤使用其中一个模板创建具有默认设置的策略：
 
-1. 在 [Microsoft Purview 合规中心](https://compliance.microsoft.com/)，在左侧导航中找到 Priva 隐私风险管理，然后选择 **“策略**”。
+1. 在 [Microsoft Purview 合规中心](https://compliance.microsoft.com/)中，在左侧导航中查找Priva 隐私风险管理并选择 **“策略**”。
 
 2. 选择屏幕右上角的 **“创建策略** ”，其中显示一个浮出窗格，其中列出了所有策略创建选项。
 
@@ -61,7 +61,7 @@ ms.locfileid: "65014492"
 
 按照以下步骤创建策略：
 
-1. 在[Microsoft 365 合规中心](https://compliance.microsoft.com/)中，在左侧导航栏中找到 Priva 隐私风险管理。 在下拉菜单中，选择 **“策略**”。
+1. 在 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)中，在左侧导航栏中找到Priva 隐私风险管理。 在下拉菜单中，选择 **“策略**”。
 
 2. 选择“**创建策略**”。
 
@@ -273,7 +273,7 @@ ms.locfileid: "65014492"
 
 若要编辑策略，请执行以下步骤：
 
-1. 在[Microsoft 365 合规中心](https://compliance.microsoft.com/)中，在左侧导航栏中找到 Priva 隐私风险管理。 在下拉菜单中，选择 **“策略**”。
+1. 在 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)中，在左侧导航栏中找到Priva 隐私风险管理。 在下拉菜单中，选择 **“策略**”。
 
 2. 在“策略 **”页上** 选择要从其行中编辑的策略，其中会显示该策略的详细信息页。
 
@@ -295,4 +295,4 @@ ms.locfileid: "65014492"
 
 ## <a name="legal-disclaimer"></a>法律免责声明
 
-[Microsoft Priva 法律免责声明](priva-disclaimer.md)
+[Microsoft Priva法律免责声明](priva-disclaimer.md)
