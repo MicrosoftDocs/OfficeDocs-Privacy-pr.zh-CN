@@ -30,11 +30,15 @@
   items:
     - name: 了解有关主体权限请求的信息
       href: subject-rights-requests.md
-    - name: 创建请求
+    - name: 了解工作流和请求详细信息页
+      href: subject-rights-requests-workflow.md
+    - name: 创建请求并定义搜索
       href: subject-rights-requests-create.md
+    - name: 数据估计和检索
+      href: subject-rights-requests-data-retrieval.md
     - name: 查看数据并进行协作
       href: subject-rights-requests-data-review.md
-    - name: 生成报表以满足请求
+    - name: 获取报告并关闭请求
       href: subject-rights-requests-reports.md
     - name: 与 Microsoft Graph API 和 Power Automate 集成
       href: subject-rights-requests-automate.md
