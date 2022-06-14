@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解Microsoft Priva 主体权利请求中的工作流步骤和请求详细信息页。
-ms.openlocfilehash: 389c587d8d8b56d0654a78281825c8f98a6244d3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 794176260f6377862d34a66dc71cef1e811188b9
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046729"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060080"
 ---
 # <a name="understand-the-workflow-and-request-details-pages"></a>了解工作流和请求详细信息页
 
@@ -45,9 +45,15 @@ ms.locfileid: "66046729"
 
 ## <a name="understanding-the-request-details-page"></a>了解请求详细信息页
 
-从 Microsoft Purview 合规性门户的左侧导航中选择 **Priva 主体权利请求**，以访问组织创建的请求并查看其状态。 主“使用者权限请求”页上的状态卡显示活动、已关闭和过期请求的数量，以及顶级请求类型。 状态卡下表列出了组织创建的所有请求，其中最近创建的请求位于顶部。
+从 Microsoft Purview 合规性门户的左侧导航中选择 **Priva 主体权利请求**，以访问组织创建的请求并查看其状态。 主“使用者权限请求”页上的状态卡（如下所示）显示活动、已关闭和过期请求数，以及顶部请求类型。 状态卡下表列出了组织创建的所有请求，其中最近创建的请求位于顶部。
 
-若要打开请求的详细信息页，请从表中选择请求名称。 可在此处详细了解请求的属性、搜索结果和请求的状态。 此页面将成为用于管理和协作管理找到的文件、创建报表和导出以及完成请求的中心。
+**使用者权限请求主页：** 
+![使用者权限请求主页。](../media/priva-srr-overview.png)
+
+若要打开请求的详细信息页，请从表中选择请求名称。 可在此处详细了解请求的属性、搜索结果和请求的状态。 下面显示的详细信息页将成为你的工作和协作中心，用于管理找到的文件、创建报表和导出以及完成请求。
+
+**请求详细信息页：**
+![“主题权限请求详细信息”页。](../media/priva-srr-detailspage.png)
 
 ### <a name="overview-tab"></a>“概述”选项卡
 

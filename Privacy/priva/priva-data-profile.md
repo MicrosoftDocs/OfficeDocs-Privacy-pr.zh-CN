@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Priva 中查找和可视化个人数据
+title: 在Microsoft Priva中查找和可视化个人数据
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,44 +16,49 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 了解 Priva 中的概述和数据配置文件，以及如何深入了解组织Microsoft 365环境中的个人数据。
-ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
-ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
+description: 了解Priva中的概述和数据配置文件，以及如何深入了解组织Microsoft 365环境中的个人数据。
+ms.openlocfilehash: 932759b681554d479cff1d041bbe12a383fb969e
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059746"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060053"
 ---
-# <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>在 Microsoft Priva 中查找和可视化个人数据
+# <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>在Microsoft Priva中查找和可视化个人数据
 
-Microsoft Priva 通过自动发现个人数据资产并提供基本信息的可视化效果来帮助你了解组织存储的数据。 可以在 **概述** 和 **数据配置文件** 页上找到这些可视化效果。 你可以利用此处的见解来加强组织的隐私状况并降低风险。
+Microsoft Priva通过自动发现个人数据资产并提供基本信息的可视化效果来帮助你了解组织存储的数据。 可以在 **概述** 和 **数据配置文件** 页上找到这些可视化效果。 你可以利用此处的见解来加强组织的隐私状况并降低风险。
 
-若要开始，请转到 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/) 的 Priva 部分并查看以下页面：
+若要开始，请转到 [Microsoft Purview 合规性门户](https://compliance.microsoft.com/)的Priva部分并查看以下页面：
 
 - **概述**：在Microsoft 365中提供组织数据的总体视图。 隐私管理员可以监视趋势和活动，识别和调查涉及个人数据的潜在风险，以及跳板到策略管理或主体权利请求操作等关键活动中。
 - **数据配置文件**：提供组织在Microsoft 365中存储的个人数据的快照。 此页面可帮助你直观显示个人数据的居住位置、组织中最普遍的类型，以及Microsoft 365环境中各个位置存在多少种不同的类型。 还可以从此位置浏览个人数据。
 
-随着数据的变化和 Priva 做出新的发现，这些页面上显示的信息将会更新。 请注意，在图表中表示新数据可能需要长达 24 小时的时间。
+随着数据的变化和Priva做出新的发现，这些页面上显示的信息将会更新。 请注意，在图表中表示新数据可能需要长达 24 小时的时间。
 
 ## <a name="explore-the-overview-page"></a>浏览概述页
 
-概述页由三个主要部分组成。 页面顶部的磁贴提供有关数据的基本最近统计信息。 关键见解部分提供对主要兴趣趋势和领域的调查机会。 若要进一步了解数据环境，请参阅趋势线图。 若要详细了解这些领域，请参阅以下部分。
+**Priva概述** 页可供所有Priva客户使用。 下方显示的页面由三个主要部分组成：
 
+1. 页面顶部的[磁贴](#top-tiles)提供有关数据的基本最近统计信息。 
+2. “ [关键见解](#key-insights) ”部分提供有关主要趋势和领域的调查机会。
+3. [趋势线图](#trendline-graphs)提供有关数据环境的其他透视。
+
+**Priva概述页：**
 ![示例概述页。](../media/priva-overview.png)
 
 ### <a name="top-tiles"></a>顶部磁贴
 
 #### <a name="policy-matches-over-past-7-days"></a>过去 7 天的策略匹配
 
-在 Priva 隐私风险管理中设置策略时，将根据策略评估可能存在隐私风险的某些条件。 策略匹配项指示可能需要进一步审查或修正的数据发现。 此磁贴显示在过去七天内发生了多少个策略匹配项。 无论策略是在测试模式下还是在测试模式下运行，都会在此处显示匹配项，因此可以看到所有活动策略的结果。 选择此磁贴将转到隐私风险管理的“ **策略** ”页的筛选视图，其中显示了在过去七天内发生匹配的策略。
+在Priva 隐私风险管理中设置策略时，将根据策略评估可能存在隐私风险的特定条件。 策略匹配项指示可能需要进一步审查或修正的数据发现。 此磁贴显示在过去七天内发生了多少个策略匹配项。 无论策略是在测试模式下还是在测试模式下运行，都会在此处显示匹配项，因此可以看到所有活动策略的结果。 选择此磁贴将转到隐私风险管理的“ **策略** ”页的筛选视图，其中显示了在过去七天内发生匹配的策略。
 
 #### <a name="items-with-personal-data"></a>包含个人数据的项目
 
-若要查看 Priva 在工作中的自动发现功能，请查看 **具有个人数据磁贴的项** 。 此磁贴显示在过去七天中，组织Microsoft 365环境中发现了多少个包含基于设置的个人数据的新项。 选择此磁贴将加载发现的最新 100 个项目的视图。
+若要查看Priva在工作中的自动发现功能，请查看 **具有个人数据** 磁贴的项目。 此磁贴显示在过去七天中，组织Microsoft 365环境中发现了多少个包含基于设置的个人数据的新项。 选择此磁贴将加载发现的最新 100 个项目的视图。
 
 #### <a name="subject-rights-requests"></a>使用者权限请求
 
-概述页包含一个磁贴，该磁贴显示在过去七天内创建了多少个主题权限请求。 第二个磁贴（如果适用）显示根据指定的截止时间逾期的请求数，可能需要立即关注。 选择这些磁贴会使具有相应权限的用户能够访问 Priva 的主题权限请求页。
+概述页包含一个磁贴，该磁贴显示在过去七天内创建了多少个主题权限请求。 第二个磁贴（如果适用）显示根据指定的截止时间逾期的请求数，可能需要立即关注。 选择这些磁贴将使具有相应权限的用户转到主“主题权限”页。
 
 ### <a name="key-insights"></a>关键见解
 
@@ -65,7 +70,7 @@ Microsoft Priva 通过自动发现个人数据资产并提供基本信息的可�
 
 #### <a name="policies-with-the-most-matches-in-the-last-week"></a>上周匹配最多的策略
 
-此见解展示了过去七天内最频繁匹配的策略，无论是在“打开”模式还是“测试”模式下。 当 Priva 用户优化其隐私行为时，它有助于说明策略的性能和正在进行的工作的影响。
+此见解展示了过去七天内最频繁匹配的策略，无论是在“打开”模式还是“测试”模式下。 当Priva用户优化其隐私行为时，它有助于说明策略的性能和正在进行的工作的影响。
 
 选择 **视图摘要** ，以获取匹配的前 10 个策略和关联内容的内容所有者的摘要。 你还将看到由于这些策略匹配而发送了多少个用户通知，以及所执行的用户操作数。 选择 **“调查** ”以查看隐私风险管理中的“策略”页，该页面经过筛选以显示摘要视图中的策略。 此调查视图将显示策略的完整生存期的统计信息。 选择它可查看详细信息，例如最初检测到匹配项时。
 
@@ -91,7 +96,7 @@ Microsoft Priva 通过自动发现个人数据资产并提供基本信息的可�
 
 #### <a name="personal-data-found-in-organization"></a>在组织中找到的个人数据
 
-此图显示了在Microsoft 365环境中发现与设置匹配的个人数据量及其所在位置的趋势。 在 Priva 运行了足够时间之后，在SharePoint、OneDrive、Teams和/或Exchange中找到包含个人数据的内容后，它将开始填充。
+此图显示了在Microsoft 365环境中发现与设置匹配的个人数据量及其所在位置的趋势。 它将在Priva运行足够时间后开始填充，并在SharePoint、OneDrive、Teams和/或Exchange中找到包含个人数据的内容后开始填充。
 
 #### <a name="data-transfers-detected-in-organization"></a>组织中检测到的数据传输
 
@@ -125,8 +130,9 @@ Microsoft Priva 通过自动发现个人数据资产并提供基本信息的可�
 
 ## <a name="explore-the-data-profile-page"></a>浏览数据配置文件页
 
-Priva 中的数据配置文件页提供了组织存储在Microsoft 365及其所在位置的个人数据的快照视图。 它还可深入了解存储的数据类型。 主磁贴包括以下内容。
+下面显示 **的“数据配置文件**”页提供了组织存储在Microsoft 365及其所在位置的个人数据的快照视图。 它还可深入了解存储的数据类型。 页面上的图表如下所述。
 
+**Priva数据配置文件页：**
 ![示例数据配置文件页。](../media/priva-dataprofile.png)
 
 ### <a name="personal-data-type-instances-detected-in-microsoft-365"></a>在Microsoft 365中检测到的个人数据类型实例
@@ -149,4 +155,4 @@ Priva 中的数据配置文件页提供了组织存储在Microsoft 365及其所�
 
 ## <a name="legal-disclaimer"></a>法律免责声明
 
-[Microsoft Priva 法律免责声明](priva-disclaimer.md)
+[Microsoft Priva法律免责声明](priva-disclaimer.md)
