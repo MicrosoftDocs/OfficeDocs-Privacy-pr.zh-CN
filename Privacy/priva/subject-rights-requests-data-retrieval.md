@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解如何检索数据，以及如何修改Microsoft Priva 主体权利请求中的搜索设置。
-ms.openlocfilehash: 9d35a7f37861d7d3ecc5d1bac7db92c75939b4c3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: a2586e987f7a03905feedfd587aab43dba3d9e6b
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046719"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166661"
 ---
 # <a name="data-estimate-and-retrieval"></a>数据估计和检索
 
@@ -36,7 +36,7 @@ ms.locfileid: "66046719"
 
 请求在 **数据估算** 阶段暂停的原因有两个：
 
-1. 首次创建请求时，可以选择先获取估算。 有关详细信息，请参阅 [“创建请求](subject-rights-requests-create.md#create-a-request) ”中的步骤 5。
+1. 创建请求时，可以选择先获取估算。 有关详细信息，请参阅 [创建自定义请求](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) 的步骤 6。
 
 2. 如果预计估算将返回大量项以查看 (超过 10，000 个项) ，则工作流将暂停。 此时，可以预览结果并决定是 [编辑搜索查询](subject-rights-requests-create.md#refining-your-search) 还是继续检索标识的项目。
 
@@ -59,7 +59,7 @@ ms.locfileid: "66046719"
 
 ## <a name="retrieve-data"></a>检索数据
 
-数据检索阶段是检索包含数据主体个人数据的所有文件、电子邮件、聊天、图像和其他内容项。 这些项放在 Azure Blob 存储容器中供审阅。 数据检索可能需要几分钟或更长的时间，具体取决于数据量。
+数据检索阶段是检索包含数据主体个人数据的所有文件、电子邮件、聊天、图像和其他内容项。 这些项目放在一个Azure Blob 存储容器中供审阅。 数据检索可能需要几分钟或更长的时间，具体取决于数据量。
 
 此阶段完成后，请求会自动移动到 **“审阅”数据** 的下一阶段。
 
