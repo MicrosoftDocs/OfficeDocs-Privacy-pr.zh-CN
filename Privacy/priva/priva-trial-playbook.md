@@ -17,12 +17,13 @@ search.appverid:
 - MOE150
 - MET150
 description: 了解Microsoft Priva试用版、查看试用期间要采取的建议操作，以及查看重要文档的链接。
-ms.openlocfilehash: cb8772d78fbe8246259737de7d933109bacb4ca7
-ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
+ms.custom: trial-playbook
+ms.openlocfilehash: 87ffb0f5d8d751d9039c6e46cef2e9a94c177057
+ms.sourcegitcommit: 24bb4f96bcc8664460faa8b2c3b934a36e416240
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2022
-ms.locfileid: "66166631"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66549251"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>试用版 playbook：Microsoft Priva
 
@@ -30,13 +31,13 @@ ms.locfileid: "66166631"
 
 此 playbook 将帮助你充分利用 90 天的免费试用版，帮助你保护个人数据并构建一个隐私可复原的工作场所。
 
-使用 Microsoft 建议，你将了解Priva如何帮助你主动识别和防范隐私风险，如数据囤积、数据传输和数据过度共享，帮助组织大规模自动执行和管理主题请求，并使员工能够做出智能数据处理决策。
+使用 Microsoft 建议，你将了解 Priva 如何帮助你主动识别和防范隐私风险，例如数据囤积、数据传输和数据过度共享，帮助组织大规模自动执行和管理主题请求，并使员工能够做出智能数据处理决策。
 
 ## <a name="getting-started"></a>入门
 
 *这些操作是有关要在 90 天的试用版中尝试的关键功能的建议。*
 
-通过设置先决条件"开始"菜单试用版。 请注意，Priva由两个关键解决方案（Priva 隐私风险管理和Priva 主体权利请求）组成，可以单独试用和购买。 有关许可和购买详细信息，请参阅 [Microsoft.com](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp)。
+通过设置先决条件开始试用。 请注意，Priva 由两个关键解决方案（Priva 隐私风险管理和Priva 主体权利请求）组成，可以单独试用和购买。 有关许可和购买详细信息，请参阅 [Microsoft.com](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp)。
 
 ### <a name="privacy-risk-management"></a>隐私风险管理
 
@@ -53,30 +54,30 @@ ms.locfileid: "66166631"
 
 - 大规模管理使用者权限请求
 
-## <a name="start-your-microsoft-priva-trial"></a>"开始"菜单Microsoft Priva试用版
+## <a name="start-your-microsoft-priva-trial"></a>启动Microsoft Priva试用版
 
 如果已准备好开始使用Microsoft Priva，请按照以下步骤设置先决条件并开始探索隐私见解。
 
 1. [确认订阅和许可](priva-setup.md#confirm-subscriptions-and-licensing)
 1. [设置用户权限并分配角色](priva-setup.md#set-user-permissions-and-assign-roles)
-1. 选择“"开始"菜单试用版”，将针对你执行以下操作：
-    - Priva (实时启用试用许可证) 
+1. 选择“开始试用”，将针对你执行以下操作：
+    -  (实时启用 Priva 试用许可证) 
     - 隐私见解生成 (这需要 24 小时) 
 
 ![欢迎屏幕的屏幕截图。](../media/priva-insights.png)
 
-## <a name="start-finding-and-visualizing-privacy-risks"></a>"开始"菜单查找和可视化隐私风险
+## <a name="start-finding-and-visualizing-privacy-risks"></a>开始查找和可视化隐私风险
 
-Priva通过自动发现个人数据资产并提供基本信息的可视化效果来帮助你了解组织存储的数据。
+Priva 通过自动发现个人数据资产并提供基本信息的可视化效果来帮助你了解组织存储的数据。
 
-若要开始，请转到Microsoft Purview 合规门户的[Priva](https://compliance.microsoft.com/)部分并查看以下页面：
+若要开始，请转到[Microsoft Purview 合规门户](https://compliance.microsoft.com/)的 Priva 部分并查看以下页面：
 
-1. [概述](priva-data-profile.md#explore-the-overview-page)：提供隐私状况的聚合视图，包括Microsoft 365环境中个人数据的卷、类别、位置和移动。 此外，还可以了解个人数据过度共享、传输或未使用所产生的相关隐私风险的当前状态和趋势。
-1. [数据配置文件](priva-data-profile.md#explore-the-data-profile-page)：提供组织在Microsoft 365中存储的个人数据的快照，包括卷、类型和位置 (存储和地理) 。
+1. [概述](priva-data-profile.md#explore-the-overview-page)：提供隐私状况的聚合视图，包括 Microsoft 365 环境中个人数据的卷、类别、位置和移动。 此外，还可以了解个人数据过度共享、传输或未使用所产生的相关隐私风险的当前状态和趋势。
+1. [数据配置文件](priva-data-profile.md#explore-the-data-profile-page)：提供组织在 Microsoft 365 中存储的个人数据的快照，包括卷、类型和位置 (存储和地理) 。
 
 ## <a name="learn-about-policies"></a>了解策略
 
-隐私风险管理使你能够设置策略，识别Microsoft 365环境中的隐私风险，并启用简单的补救措施。
+隐私风险管理使你能够设置策略来识别 Microsoft 365 环境中的隐私风险，并启用简单的补救措施。
 
 1. [了解关键风险方案](risk-management.md#learn-about-key-risk-scenarios)
 1. [限制数据过度表达](risk-management.md#limit-data-overexposure)
@@ -120,7 +121,7 @@ Priva通过自动发现个人数据资产并提供基本信息的可视化效果
 1. [为策略通知准备训练内容](risk-management-notifications.md#prepare-training-content-for-notifications)
 1. [设置策略的电子邮件通知](risk-management-notifications.md#set-user-email-notifications)
 1. [预览和自定义电子邮件通知](risk-management-notifications.md#preview-and-customize-email-content)
-1. [在Teams中发送通知](risk-management-notifications.md#send-notifications-in-teams)
+1. [在 Teams 中发送通知](risk-management-notifications.md#send-notifications-in-teams)
 
 ## <a name="learn-about-subject-rights-requests"></a>了解有关主体权限请求的信息
 
@@ -144,15 +145,15 @@ Priva通过自动发现个人数据资产并提供基本信息的可视化效果
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>管理使用者权限请求的数据匹配
 
-通过数据匹配，组织可以启用Priva根据确切提供的数据值来标识数据主体。
+通过数据匹配，组织可以让 Priva 根据确切提供的数据值来标识数据主体。
 
 1. [准备数据导入](subject-rights-requests-data-match.md#prepare-for-data-import)
 1. [定义个人数据架构](subject-rights-requests-data-match.md#define-the-personal-data-schema)
-1. [Upload个人数据](subject-rights-requests-data-match.md#upload-personal-data)
+1. [上传个人数据](subject-rights-requests-data-match.md#upload-personal-data)
 
 ## <a name="review-data-and-collaborate-on-subject-rights-requests"></a>查看数据并协作处理主体权限请求
 
-创建主题权限请求后，Priva将使用有关主题的输入在组织的Microsoft 365环境中查找匹配项。 编译此数据后，可以查看调查结果，选择要包含的内容，并根据需要修改信息。
+创建主题权限请求后，Priva 将使用有关主题的输入在组织的 Microsoft 365 环境中查找匹配项。 编译此数据后，可以查看调查结果，选择要包含的内容，并根据需要修改信息。
 
 1. [查看请求详细信息并监视进度](subject-rights-requests-workflow.md)
 1. [查看和编辑搜索查询](subject-rights-requests-create.md#defining-search-settings)  (可选) 
@@ -167,19 +168,19 @@ Priva通过自动发现个人数据资产并提供基本信息的可视化效果
 1. [通过 Microsoft 图形 API 和 Power Automate 集成和扩展](subject-rights-requests-automate.md)
 1. [管理数据保留](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
-## <a name="extend-with-power-automate"></a>使用Power Automate扩展
+## <a name="extend-with-power-automate"></a>使用 Power Automate 进行扩展
 
-为Priva启用Power Automate流，以便自动执行事例和用户的重要任务，例如在 ServiceNow 中创建票证或添加有关截止日期的日历提醒。
+为 Priva 启用 Power Automate 流以自动执行事例和用户的重要任务，例如在 ServiceNow 中创建票证或添加有关截止日期的日历提醒。
 
-1. [从模板创建新的Power Automate流](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
-1. [共享Power Automate流](subject-rights-requests-automate.md#share-a-power-automate-flow)
-1. [编辑或删除Power Automate流](subject-rights-requests-automate.md#edit-or-delete-power-automate-flow)
+1. [从模板创建新的 Power Automate 流](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
+1. [共享 Power Automate 流](subject-rights-requests-automate.md#share-a-power-automate-flow)
+1. [编辑或删除 Power Automate 流](subject-rights-requests-automate.md#edit-or-delete-power-automate-flow)
 
 ## <a name="additional-resources"></a>其他资源
 
 **Microsoft Docs**：获取有关Microsoft Priva的工作原理以及如何为组织最好地实现它的详细信息。 [访问文档](priva-overview.md)。
 
-**为何Microsoft Priva**：详细了解此 [视频中](https://www.youtube.com/watch?v=6OLky1biPIQ)的Priva功能。
+**为什么Microsoft Priva**：在此 [视频中](https://www.youtube.com/watch?v=6OLky1biPIQ)详细了解 Priva 功能。
 
 **在此处详细了解Microsoft Priva**：博客、计划 [和定价。](https://aka.ms/privacymgmt/web)
 
